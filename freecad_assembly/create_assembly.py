@@ -14,7 +14,21 @@ Gui.ActiveDocument=Gui.getDocument("assembly")
 
 
 # find all files in current working dir
-cwd='/home/marko.thiele/Downloads/freecad_git_tryout/freecad_assembly'
+#
+# getcwd will not work because it gives the dir where freecad is running and
+# this is somewhere in the tmp dir (at least for the asm3 version for freecad)
+# cwd=os.getcwd()
+
+# asuming that the last argument given to freecad was this script
+# extract the path from the script and use that as working dir
+print 'Number of arguments:', len(sys.argv), 'arguments.'
+print 'Argument List:', str(sys.argv)
+cwd=os.path.dirname(sys.argv[-1])
+print('Working dir: {}').format(cwd)
+
+
+sys.exit
+
 os.chdir(cwd)
 parts=[]
 groups=[]
@@ -41,8 +55,10 @@ for group in groups:
     # walk through the list
     last_group_element=False
     for group_element in group:
-        # TODO: check if part allready exists
+        # TODO: check if part/group/assembly allready exists
         
+        # TODO: create assemblies (asm3) instead of groups!
+
         # create group_element as group below last_group_element or at root in the document
         print("creating group: {}").format(group_element)
         App.activeDocument().Tip = App.activeDocument().addObject('App::DocumentObjectGroup',str(group_element))
@@ -74,11 +90,17 @@ for part in parts:
 
     openingDoc=FreeCAD.open(rel_file_path)
 
-    print(openingDoc.OutList)
+    # TODO: find out how to list Objects of a document
+    # print(openingDoc.OutList)
+
+    # TODO: create links of all Objects in the document to the
+    #       assembly document
     
     if openingDoc:
       print('file loaded')
       del(openingDoc)
+
+
 
 
 
