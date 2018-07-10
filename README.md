@@ -6,3 +6,15 @@ The whole geometry of the model is composed of all parts. So the idea is to load
 
 The goal of this aproach is that multiple user can work together on the same model and the amount of conflicts created is as low as possible. With this aproach a conflict only arises if users are making changes to the same part.
 
+This repository uses Zippey from here in order to better deal with the zipped fcstd files: https://bitbucket.org/sippey/zippey
+
+In order to activate Zippey run the following commands:
+
+git config filter.zippey.smudge "$PWD/zippey.py d"
+git config filter.zippey.clean "$PWD/zippey.py e"
+
+Downloading the fcstd files from the WebSite will give you only the unziped content. In order to recover them you have do do the following:
+
+zippey.py d < downloaded-file > recovered-file
+
+
