@@ -1,0 +1,4 @@
+*.fcstd filter=zippey
+*.docx filter=zippey
+*.xmlx filter=zippey
+*.pptx filter=zippey
