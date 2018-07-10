@@ -107,17 +107,17 @@ for part in parts:
         App.getDocument('assembly').addObject('App::Link',label).setLink(object)
         App.getDocument('assembly').getObject(label).Label=label
         App.getDocument("assembly").getObject(group).addObject(App.getDocument("assembly").getObject(label))
-
-    # TODO: create links of all Objects in the document to the
-    #       assembly document
     
     if doc:
       print('file loaded')
       del(doc)
 
+
 # make the assembly document active
 App.setActiveDocument("assembly")
 App.ActiveDocument=App.getDocument("assembly")
 Gui.ActiveDocument=Gui.getDocument("assembly")
+# recompute the assembly document
 FreeCAD.ActiveDocument.recompute()
+# save the assembly document
 App.getDocument("assembly").saveAs(os.path.join(cwd,'assembly.fcstd'))
