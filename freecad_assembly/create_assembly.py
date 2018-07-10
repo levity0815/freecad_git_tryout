@@ -57,11 +57,12 @@ for group in groups:
     for group_element in group:
         # TODO: check if part/group/assembly allready exists
         
-        # TODO: create assemblies (asm3) instead of groups!
+        # TODO: create assemblies (asm3) instead of groups! (unfortunately this is not recorded by macro)
 
         # create group_element as group below last_group_element or at root in the document
         print("creating group: {}").format(group_element)
-        App.activeDocument().Tip = App.activeDocument().addObject('App::DocumentObjectGroup',str(group_element))
+        # App.activeDocument().Tip = App.activeDocument().addObject('App::DocumentObjectGroup',str(group_element))
+        App.activeDocument().Tip = App.activeDocument().addObject('App::Part',str(group_element))
         App.activeDocument().getObject(group_element).Label = group_element
 
         if last_group_element:
@@ -86,36 +87,37 @@ App.getDocument("assembly").saveAs(os.path.join(cwd,'assembly.fcstd'))
 for part in parts:
     # open the fcstd
     rel_file_path='{0}/{1}'.format(part[1],part[2])
+    # the group this part belongs to is the last part of the relativ path
+    group=part[1].split("/")[-1]
+    
     print('opening file: {}').format(rel_file_path)
+    print('belongs to group: {}').format(group)
+ 
 
-    openingDoc=FreeCAD.open(rel_file_path)
+    doc=FreeCAD.open(rel_file_path)
+    
+    objects=doc.RootObjects 
 
-    # TODO: find out how to list Objects of a document
-    # print(openingDoc.OutList)
+    for object in objects:
+        # API here: https://www.freecadweb.org/wiki/Object_API
+        label=object.Label
+        name=object.Name
+       
+        # for each root object create a link in the assembly document
+        App.getDocument('assembly').addObject('App::Link',label).setLink(object)
+        App.getDocument('assembly').getObject(label).Label=label
+        App.getDocument("assembly").getObject(group).addObject(App.getDocument("assembly").getObject(label))
 
     # TODO: create links of all Objects in the document to the
     #       assembly document
     
-    if openingDoc:
+    if doc:
       print('file loaded')
-      del(openingDoc)
+      del(doc)
 
-
-
-
-
-#  sys.exit()
-#  
-#  #App.setActiveDocument("_9___bumper_bracket_R________________________")
-#  #App.ActiveDocument=App.getDocument("_9___bumper_bracket_R________________________")
-#  #Gui.ActiveDocument=Gui.getDocument("_9___bumper_bracket_R________________________")
-#  if __openingDoc:
-#    Gui.setActiveDocument(__openingDoc)
-#    del(__openingDoc)
-#  #App.setActiveDocument("assembly")
-#  #App.ActiveDocument=App.getDocument("assembly")
-#  #Gui.ActiveDocument=Gui.getDocument("assembly")
-#  App.getDocument('assembly').addObject('App::Link','Link').setLink(App.getDocument('_9___bumper_bracket_R________________________').biw_____________EU_LL_______________________________________0783_d6a69ac9_key)
-#  App.getDocument('assembly').getObject('Link').Label='Link_000039_bumper_bracket_R'
-#  App.getDocument("assembly").getObject("radiator_frame").addObject(App.getDocument("assembly").getObject("Link"))
-#  
+# make the assembly document active
+App.setActiveDocument("assembly")
+App.ActiveDocument=App.getDocument("assembly")
+Gui.ActiveDocument=Gui.getDocument("assembly")
+FreeCAD.ActiveDocument.recompute()
+App.getDocument("assembly").saveAs(os.path.join(cwd,'assembly.fcstd'))
