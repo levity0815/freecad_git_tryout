@@ -119,5 +119,7 @@ App.ActiveDocument=App.getDocument("assembly")
 Gui.ActiveDocument=Gui.getDocument("assembly")
 # recompute the assembly document
 FreeCAD.ActiveDocument.recompute()
+
+
 # save the assembly document
 App.getDocument("assembly").saveAs(os.path.join(cwd,'assembly.fcstd'))
