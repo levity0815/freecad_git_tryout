@@ -32,6 +32,11 @@ git config filter.zippey.clean "$PWD/zippey.py e"
 
 After applying the filters one has to switch bag to a commit before the fcstd files have been added (e.g. commit 98baa2110fdb09c7f5581ab133f45bacd6d9a3b5) and than get back to HEAD.
 
+```
+git checkout 98baa
+git checkout master
+```
+
 Downloading the fcstd files from the WebSite will give you only the unziped content. In order to recover them you have do do the following:
 
 ```
