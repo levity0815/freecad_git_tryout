@@ -68,4 +68,14 @@ KONFLIKT (Inhalt): Merge-Konflikt in Toyota_Yaris_-_freecad_single_file/body_in_
 Automatischer Merge fehlgeschlagen; beheben Sie die Konflikte und committen Sie dann das Ergebnis.
 marko.thiele@jasper:~/PROJEKTE/FreeCAD_git/freecad_git_tryout$ 
 ```
+When I extract both freecad documents and unzip them I can see that most differences come from Document.xml and GuiDocument.xml and unfortunately they are conflicting.
+
+![Document.xml](/images/Document.xml_diff.png)
+
+![GuiDocument.xml](/images/GuiDocument.xml_diff.png)
+
+Some other diffrerences are in files like `DiffuseColor*`, however I suspect these are changes to different files.
+
 Conclusion is that out of the box merging with git will not work with freecad files.
+
+
