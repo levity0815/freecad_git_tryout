@@ -70,9 +70,9 @@ marko.thiele@jasper:~/PROJEKTE/FreeCAD_git/freecad_git_tryout$
 ```
 When I extract both freecad documents and unzip them I can see that most differences come from Document.xml and GuiDocument.xml and unfortunately they are conflicting.
 
-![Document.xml](/images/Document.xml_diff.png)
+![Document.xml](images/Document.xml_diff.png)
 
-![GuiDocument.xml](/images/GuiDocument.xml_diff.png)
+![GuiDocument.xml](images/GuiDocument.xml_diff.png)
 
 Some other diffrerences are in files like `DiffuseColor*`, however I suspect these are changes to different files.
 
