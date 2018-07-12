@@ -43,3 +43,29 @@ Downloading the fcstd files from the WebSite will give you only the unzipped con
 zippey.py d < downloaded-file > recovered-file
 ```
 
+## Tries with merging
+
+### working with a single file on two branches
+
+In this use case I created two branches: `001_single_file_simple_change_user_Alice` and `001_single_file_simple_change_user_Bob` in both of them I worked with the frecad file: `Toyota_Yaris_-_freecad_single_file/body_in_white___________________________PID0.fcstd`. In the Alice branch I changed the color of the part 51 in the Bob branch I changed the color of part 48.
+
+When trying to merge I got this:
+
+```
+marko.thiele@jasper:~/PROJEKTE/FreeCAD_git/freecad_git_tryout$ git merge 001_single_file_simple_change_user_Bob
+Traceback (most recent call last):
+  File "/home/marko.thiele/PROJEKTE/FreeCAD_git/freecad_git_tryout/zippey.py", line 198, in <module>
+    main()
+  File "/home/marko.thiele/PROJEKTE/FreeCAD_git/freecad_git_tryout/zippey.py", line 192, in main
+    decode(input, output)
+  File "/home/marko.thiele/PROJEKTE/FreeCAD_git/freecad_git_tryout/zippey.py", line 156, in decode
+    (data_len, raw_len, mode, name) = [t(s) for (t, s) in zip((int, int, str, str), meta.split('|'))]
+ValueError: invalid literal for int() with base 10: '<<<<<<< HEAD '
+error: external filter /home/marko.thiele/PROJEKTE/FreeCAD_git/freecad_git_tryout/zippey.py d failed 1
+error: external filter /home/marko.thiele/PROJEKTE/FreeCAD_git/freecad_git_tryout/zippey.py d failed
+automatischer Merge von Toyota_Yaris_-_freecad_single_file/body_in_white___________________________PID0.fcstd
+KONFLIKT (Inhalt): Merge-Konflikt in Toyota_Yaris_-_freecad_single_file/body_in_white___________________________PID0.fcstd
+Automatischer Merge fehlgeschlagen; beheben Sie die Konflikte und committen Sie dann das Ergebnis.
+marko.thiele@jasper:~/PROJEKTE/FreeCAD_git/freecad_git_tryout$ 
+```
+Conclusion is that out of the box merging with git will not work with freecad files.
