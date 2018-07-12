@@ -102,6 +102,9 @@ for part in parts:
         # API here: https://www.freecadweb.org/wiki/Object_API
         label=object.Label
         name=object.Name
+        content=object.Content    
+
+        print(object.PropertiesList)
        
         # for each root object create a link in the assembly document
         App.getDocument('assembly').addObject('App::Link',label).setLink(object)
