@@ -79,3 +79,13 @@ Some other diffrerences are in files like `DiffuseColor*`, however I suspect the
 Conclusion is that out of the box merging with git will not work with freecad files.
 
 
+### working with an assembly of multiple files on two branches
+
+Doing the same thing as described above using the assembly with links to multiple files a merge was straight forward, because the changes have been on different files. When opening the assembly on the merged branch the CAD model contained the changes of both branches.
+
+![merging](images/merge_002.png)
+
+Of course this will not help if two persons work on the same part. This will still result in an conflict. However as long as the work on a branch is focused on certain parts (sub assemblies) of the model the proposed aproach should make teamwork using git a lot less painfull.
+
+One possibility to help with conflicting parts might be to create an assembly containing both conflicting versions of the part. In this setup the user would have to resolve the conflict manualy, which is just the same as what does git if there are conflicting lines in one file.
+
