@@ -89,3 +89,7 @@ Doing the same thing as described above using the assembly with links to multipl
 Of course, this will not help if two persons work on the same part. This will still result in a conflict. However, as long as the work on a branch is focused on certain parts (subassemblies) of the model the proposed approach should make teamwork using git a lot less painful.
 
 One possibility to help with conflicting parts might be to create an assembly containing both conflicting versions of the part. In this setup, the user would have to resolve the conflict manually, which is just the same as what does git if there are conflicting lines in one file.
+
+### creating and resolving conflicts while working with an assembly of multiple files on two branches
+
+Note: This might lead to something... https://gist.github.com/karenyyng/f19ff75c60f18b4b8149 
