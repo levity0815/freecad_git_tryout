@@ -19,7 +19,7 @@ Gui.ActiveDocument=Gui.getDocument("assembly")
 # this is somewhere in the tmp dir (at least for the asm3 version for freecad)
 # cwd=os.getcwd()
 
-# asuming that the last argument given to freecad was this script
+# assuming that the last argument given to freecad was this script
 # extract the path from the script and use that as working dir
 print 'Number of arguments:', len(sys.argv), 'arguments.'
 print 'Argument List:', str(sys.argv)
@@ -35,7 +35,7 @@ groups=[]
 for root, dirs, files in os.walk(cwd):
     for file in files:
         if file.endswith(".fcstd") and file!='assembly.fcstd':
-             # extract relativ path
+             # extract relative path
              rel_path=root.replace(cwd+'/','')
              parts.append([root,rel_path,file])
              groups.append(rel_path)
@@ -55,7 +55,7 @@ for group in groups:
     # walk through the list
     last_group_element=False
     for group_element in group:
-        # TODO: check if part/group/assembly allready exists
+        # TODO: check if part/group/assembly already exists
         
         # TODO: create assemblies (asm3) instead of groups! (unfortunately this is not recorded by macro)
 
@@ -87,7 +87,7 @@ App.getDocument("assembly").saveAs(os.path.join(cwd,'assembly.fcstd'))
 for part in parts:
     # open the fcstd
     rel_file_path='{0}/{1}'.format(part[1],part[2])
-    # the group this part belongs to is the last part of the relativ path
+    # the group this part belongs to is the last part of the relative path
     group=part[1].split("/")[-1]
     
     print('opening file: {}').format(rel_file_path)
