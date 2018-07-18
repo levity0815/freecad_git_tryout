@@ -1,4 +1,4 @@
-16711|16711|A|Document.xml
+19701|19701|A|Document.xml
 <?xml version='1.0' encoding='utf-8'?>
 <!--
  FreeCAD Document, see http://www.freecadweb.org for more information...
@@ -32,7 +32,7 @@
             <String value="Marko Thiele"/>
         </Property>
         <Property name="LastModifiedDate" type="App::PropertyString" status="1">
-            <String value="2018-07-18T21:55:45+02:00"/>
+            <String value="2018-07-19T00:22:16+02:00"/>
         </Property>
         <Property name="License" type="App::PropertyString" status="1">
             <String value="CreativeCommons Attribution"/>
@@ -248,22 +248,43 @@
             </Properties>
         </Object>
         <Object name="Spreadsheet">
-            <Properties Count="6" TransientCount="15">
+            <Properties Count="6" TransientCount="36">
                 <_Property name="A1" type="App::PropertyString" status="0"/>
+                <_Property name="A10" type="App::PropertyString" status="0"/>
+                <_Property name="A11" type="App::PropertyString" status="0"/>
+                <_Property name="A12" type="App::PropertyString" status="0"/>
+                <_Property name="A13" type="App::PropertyString" status="0"/>
+                <_Property name="A14" type="App::PropertyString" status="0"/>
+                <_Property name="A15" type="App::PropertyString" status="0"/>
                 <_Property name="A2" type="App::PropertyString" status="0"/>
                 <_Property name="A3" type="App::PropertyString" status="0"/>
                 <_Property name="A4" type="App::PropertyString" status="0"/>
-                <_Property name="A6" type="App::PropertyString" status="0"/>
-                <_Property name="B1" type="App::PropertyString" status="0"/>
-                <_Property name="B2" type="App::PropertyFloat" status="0"/>
+                <_Property name="A5" type="App::PropertyString" status="0"/>
+                <_Property name="A7" type="App::PropertyString" status="0"/>
+                <_Property name="A9" type="App::PropertyString" status="0"/>
+                <_Property name="B10" type="App::PropertyFloat" status="0"/>
+                <_Property name="B11" type="App::PropertyFloat" status="0"/>
+                <_Property name="B12" type="App::PropertyFloat" status="0"/>
+                <_Property name="B13" type="App::PropertyFloat" status="0"/>
+                <_Property name="B14" type="App::PropertyFloat" status="0"/>
+                <_Property name="B15" type="App::PropertyFloat" status="0"/>
+                <_Property name="B2" type="App::PropertyString" status="0"/>
                 <_Property name="B3" type="App::PropertyFloat" status="0"/>
                 <_Property name="B4" type="App::PropertyFloat" status="0"/>
-                <_Property name="B6" type="App::PropertyFloat" status="0"/>
+                <_Property name="B5" type="App::PropertyFloat" status="0"/>
+                <_Property name="B7" type="App::PropertyFloat" status="0"/>
+                <_Property name="B9" type="App::PropertyString" status="0"/>
                 <_Property name="car_height" type="App::PropertyFloat" status="0"/>
                 <_Property name="car_length" type="App::PropertyFloat" status="0"/>
                 <_Property name="car_width" type="App::PropertyFloat" status="0"/>
                 <_Property name="card_board_tickness" type="App::PropertyFloat" status="0"/>
                 <_Property name="docDeps" type="App::PropertyLinkList" status="0"/>
+                <_Property name="relative_wheel_to_body" type="App::PropertyFloat" status="0"/>
+                <_Property name="relative_wheelbase" type="App::PropertyFloat" status="0"/>
+                <_Property name="wheel_diameter" type="App::PropertyFloat" status="0"/>
+                <_Property name="wheel_to_body" type="App::PropertyFloat" status="0"/>
+                <_Property name="wheel_width" type="App::PropertyFloat" status="0"/>
+                <_Property name="wheelbase" type="App::PropertyFloat" status="0"/>
                 <Property name="ExpressionEngine" type="App::PropertyExpressionEngine">
                     <ExpressionEngine count="0">
                     </ExpressionEngine>
@@ -275,17 +296,32 @@
                     <Bool value="false"/>
                 </Property>
                 <Property name="cells" type="Spreadsheet::PropertySheet">
-                    <Cells Count="10">
-                        <Cell address="A1" content="alias" />
-                        <Cell address="B1" content="value" />
-                        <Cell address="A2" content="car_width" />
-                        <Cell address="B2" content="100" alias="car_width" />
-                        <Cell address="A3" content="car_length" />
-                        <Cell address="B3" content="200" alias="car_length" />
-                        <Cell address="A4" content="car_height" />
-                        <Cell address="B4" content="100" alias="car_height" />
-                        <Cell address="A6" content="card_board_tickness" />
-                        <Cell address="B6" content="2" alias="card_board_tickness" />
+                    <Cells Count="25">
+                        <Cell address="A1" content="basic car dimensions" style="bold" rowSpan="1" colSpan="2" />
+                        <Cell address="A2" content="alias" />
+                        <Cell address="B2" content="value" />
+                        <Cell address="A3" content="car_width" />
+                        <Cell address="B3" content="100" alias="car_width" />
+                        <Cell address="A4" content="car_length" />
+                        <Cell address="B4" content="200" alias="car_length" />
+                        <Cell address="A5" content="car_height" />
+                        <Cell address="B5" content="100" alias="car_height" />
+                        <Cell address="A7" content="card_board_tickness" />
+                        <Cell address="B7" content="2" alias="card_board_tickness" />
+                        <Cell address="A9" content="wheel dimmensions" style="bold" />
+                        <Cell address="B9" style="bold" />
+                        <Cell address="A10" content="relative_wheelbase" />
+                        <Cell address="B10" content="0.59999999999999998" alias="relative_wheelbase" />
+                        <Cell address="A11" content="wheelbase" />
+                        <Cell address="B11" content="=car_length * relative_wheelbase" alias="wheelbase" />
+                        <Cell address="A12" content="wheel_diameter" />
+                        <Cell address="B12" content="30" alias="wheel_diameter" />
+                        <Cell address="A13" content="relative_wheel_to_body" />
+                        <Cell address="B13" content="0.10000000000000001" alias="relative_wheel_to_body" />
+                        <Cell address="A14" content="wheel_to_body" />
+                        <Cell address="B14" content="=relative_wheel_to_body * wheel_diameter" alias="wheel_to_body" />
+                        <Cell address="A15" content="wheel_width" />
+                        <Cell address="B15" content="10" alias="wheel_width" />
                     </Cells>
                 </Property>
                 <Property name="columnWidths" type="Spreadsheet::PropertyColumnWidths">
