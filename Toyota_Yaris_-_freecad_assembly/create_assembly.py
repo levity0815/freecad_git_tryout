@@ -1,128 +1,166 @@
 # -*- coding: utf-8 -*-
 
+"""
+Script to create Assembly Structure inside FreeCAD from filesystem hierarchy.
+
+Usage:
+Open Script with FreeCAD and provide absolute path of the root folder.
+
+Example:
+freecad `readlink -f create_assembly.py` /home/peter.friedrich/workspace/freecad_git_tryout/Toyota_Yaris_-_freecad_assembly/body_in_white___________________________PID0
+"""
+
+
+import json
+import freecad.asm3.assembly
 import FreeCAD
-import FreeCADGui
-import os
 import sys
-
-# create a document to work in
-#Gui.activateWorkbench("Assembly3Workbench")
-App.newDocument("assembly")
-App.setActiveDocument("assembly")
-App.ActiveDocument=App.getDocument("assembly")
-Gui.ActiveDocument=Gui.getDocument("assembly")
+import fnmatch
+import os
 
 
-# find all files in current working dir
-#
-# getcwd will not work because it gives the dir where freecad is running and
-# this is somewhere in the tmp dir (at least for the asm3 version for freecad)
-# cwd=os.getcwd()
-
-# asuming that the last argument given to freecad was this script
-# extract the path from the script and use that as working dir
-print 'Number of arguments:', len(sys.argv), 'arguments.'
-print 'Argument List:', str(sys.argv)
-cwd=os.path.dirname(sys.argv[-1])
-print('Working dir: {}').format(cwd)
+def main():
+    basedir = sys.argv[3]
+    s = Structure(basedir)
+    s.create()
+    s.export_to_json(os.path.join(os.path.split(basedir)[0], 'structure.json'))
+    asm = FreeCADAssembly(s._groups, s._parts, os.path.split(s._basedir)[0])
+    asm.start()
 
 
-sys.exit
+class Structure(object):
 
-os.chdir(cwd)
-parts=[]
-groups=[]
-for root, dirs, files in os.walk(cwd):
-    for file in files:
-        if file.endswith(".fcstd") and file!='assembly.fcstd':
-             # extract relativ path
-             rel_path=root.replace(cwd+'/','')
-             parts.append([root,rel_path,file])
-             groups.append(rel_path)
+    def __init__(self, basedir):
+        self._basedir = basedir
+        self._groups = []
+        self._parts = []
 
-# make the list of groups uniq so we can use it to create the assembly structure
-groups = list(set(groups))
+    def create(self):
+        matches = []
+        for root, dirnames, filenames in os.walk(self._basedir):
+            for filename in fnmatch.filter(filenames, '*.fcstd'):
+                matches.append(os.path.join(root, filename))
+        parts = []
+        groups = []
+        for m in matches:
+            m = os.path.relpath(m, os.path.split(self._basedir)[0])
+            p, g = Structure.extract_path(m)
+            parts.append(p)
+            groups += g
+        groupdict = {g['name']: g for g in groups}
+        self._groups = [v for _, v in groupdict.items()]
+        self._parts  = parts
 
-print(groups)
+    @staticmethod
+    def parse_name(name):
+        """Parse name like 'body_in_white___________________________PID_1' into name and label"""
+        split = name.split('_')
+        pid = name[name.find('PID'):]
+        label = '_'.join(s for s in split[:-1] if s)
+        if name.endswith('.fcstd'):
+            pid = pid[:-6]
+        return pid, label
 
-# create a group structure as contained in groups
-# go through all groups
-for group in groups:
-    # for each group create the whole part structure
-    # create a list
-    group = group.split("/")
-    
-    # walk through the list
-    last_group_element=False
-    for group_element in group:
-        # TODO: check if part/group/assembly allready exists
-        
-        # TODO: create assemblies (asm3) instead of groups! (unfortunately this is not recorded by macro)
+    @staticmethod
+    def extract_path(filename):
+        """Extract Group Path from"""
+        groups = []
+        parent = ''
+        for element in filename.split(os.path.sep)[:-1]:
+            if element == '.':
+                continue
+            name, label = Structure.parse_name(element)
+            groups.append({'name': name, 'label': label, 'parent': parent})
+            parent = name
 
-        # create group_element as group below last_group_element or at root in the document
-        print("creating group: {}").format(group_element)
-        # App.activeDocument().Tip = App.activeDocument().addObject('App::DocumentObjectGroup',str(group_element))
-        App.activeDocument().Tip = App.activeDocument().addObject('App::Part',str(group_element))
-        App.activeDocument().getObject(group_element).Label = group_element
+        p = os.path.split(filename)[1]
+        name, label = Structure.parse_name(p)
+        part = {'name': name, 'label': label, 'parent': parent, 'filename': filename}
+        return part, groups
 
-        if last_group_element:
-            # moving group
-            print("moving group: {0} to group: {1}").format(group_element,last_group_element)
-            App.getDocument("assembly").getObject(last_group_element).addObject(App.getDocument("assembly").getObject(group_element))
+    def export_to_json(self, filename):
+        _dict = {}
+        _dict['parts'] = self._parts
+        _dict['groups'] = self._groups
 
-        # remember the just created group_element because this will be the object where to move the next part
-        last_group_element=group_element
-
-        # recompute the document 
-        App.ActiveDocument.recompute()
-
-
-
-# load all documents and create links within the groups
-
-# before we can start to create links we will have to save the assembly document
-App.getDocument("assembly").saveAs(os.path.join(cwd,'assembly.fcstd'))
-
-# now load all parts and create the links
-for part in parts:
-    # open the fcstd
-    rel_file_path='{0}/{1}'.format(part[1],part[2])
-    # the group this part belongs to is the last part of the relativ path
-    group=part[1].split("/")[-1]
-    
-    print('opening file: {}').format(rel_file_path)
-    print('belongs to group: {}').format(group)
- 
-
-    doc=FreeCAD.open(rel_file_path)
-    
-    objects=doc.RootObjects 
-
-    for object in objects:
-        # API here: https://www.freecadweb.org/wiki/Object_API
-        label=object.Label
-        name=object.Name
-        content=object.Content    
-
-        print(object.PropertiesList)
-       
-        # for each root object create a link in the assembly document
-        App.getDocument('assembly').addObject('App::Link',label).setLink(object)
-        App.getDocument('assembly').getObject(label).Label=label
-        App.getDocument("assembly").getObject(group).addObject(App.getDocument("assembly").getObject(label))
-    
-    if doc:
-      print('file loaded')
-      del(doc)
+        with open(filename, 'w') as f:
+            json.dump(_dict, f, indent=4)
 
 
-# make the assembly document active
-App.setActiveDocument("assembly")
-App.ActiveDocument=App.getDocument("assembly")
-Gui.ActiveDocument=Gui.getDocument("assembly")
-# recompute the assembly document
-FreeCAD.ActiveDocument.recompute()
+class Assembly(object):
+
+    def __init__(self, groups, parts, basedir):
+        super(Assembly, self).__init__()
+        self._groups = groups
+        self._parts = parts
+        self._basedir = basedir
+
+    @classmethod
+    def from_json(cls, filename):
+        with open(filename, 'r') as f:
+            _dict = json.load(f)
+        groups = _dict.get('groups', [])
+        parts = _dict.get('parts', [])
+        basedir = os.path.dirname(filename)
+        return cls(groups, parts, basedir)
+
+    def abspath(self, path):
+        return os.path.join(self._basedir, path)
 
 
-# save the assembly document
-App.getDocument("assembly").saveAs(os.path.join(cwd,'assembly.fcstd'))
+class FreeCADAssembly(Assembly):
+
+    def __init__(self, groups, parts, basedir, *args, **kwargs):
+        super(FreeCADAssembly, self).__init__(groups, parts, basedir, *args, **kwargs)
+
+    @property
+    def document_name(self):
+        return "assembly"
+
+    def start(self):
+        self.create_document()
+        self.create_groups()
+        for p in self._parts:
+            self.create_part(p)
+
+        App.setActiveDocument(self.document_name)
+
+    def create_document(self):
+        App.newDocument(self.document_name)
+        App.setActiveDocument(self.document_name)
+        App.ActiveDocument=App.getDocument(self.document_name)
+        Gui.ActiveDocument=Gui.getDocument(self.document_name)
+
+        doc = App.getDocument(self.document_name)
+        doc.saveAs(self.abspath('assembly.fcstd'))
+
+    def create_groups(self):
+        doc = App.getDocument(self.document_name)
+
+        for g in self._groups:
+            obj = doc.addObject('App::Part', g['name'])
+            obj.Label = g['label']
+
+        for g in self._groups:
+            if g['parent'] != '':
+                obj = doc.getObject(g['name'])
+                doc.getObject(g['parent']).addObject(obj)
+
+    def create_part(self, part):
+        doc = App.getDocument(self.document_name)
+
+        newdoc = FreeCAD.open(self.abspath(part['filename']))
+
+        if len(newdoc.RootObjects) > 1:
+            print("More than one root object!")
+
+        obj = newdoc.RootObjects[0]
+        label, name = obj.Label, obj.Name
+        doc.addObject('App::Link', part['name']).setLink(obj)
+        doc.getObject(part['name']).Label = part['label']
+        doc.getObject(part['parent']).addObject(doc.getObject(part['name']))
+
+
+
+if __name__ == '__main__':
+    main()
