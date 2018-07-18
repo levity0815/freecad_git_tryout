@@ -1,0 +1,536 @@
+16689|16689|A|Document.xml
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="0.17R5235 (Git shallow)" FileVersion="1" StringHasher="1">
+    <StringHasher count="0" saveall="0" threshold="0">
+    </StringHasher>
+    <Properties Count="16" TransientCount="3">
+        <_Property name="FileName" type="App::PropertyString" status="1"/>
+        <_Property name="Tip" type="App::PropertyLink" status="1"/>
+        <_Property name="TransientDir" type="App::PropertyString" status="1"/>
+        <Property name="Comment" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="Company" type="App::PropertyString" status="1">
+            <String value="SCALE GmbH"/>
+        </Property>
+        <Property name="CreatedBy" type="App::PropertyString" status="1">
+            <String value="Marko Thiele"/>
+        </Property>
+        <Property name="CreationDate" type="App::PropertyString" status="1">
+            <String value="2018-07-18T18:12:53+02:00"/>
+        </Property>
+        <Property name="Id" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="Label" type="App::PropertyString" status="1">
+            <String value="common_parameters_______________________PID10"/>
+        </Property>
+        <Property name="LastModifiedBy" type="App::PropertyString" status="1">
+            <String value="Marko Thiele"/>
+        </Property>
+        <Property name="LastModifiedDate" type="App::PropertyString" status="1">
+            <String value="2018-07-18T18:19:08+02:00"/>
+        </Property>
+        <Property name="License" type="App::PropertyString" status="1">
+            <String value="CreativeCommons Attribution"/>
+        </Property>
+        <Property name="LicenseURL" type="App::PropertyString" status="1">
+            <String value="http://creativecommons.org/licenses/by/4.0/"/>
+        </Property>
+        <Property name="Material" type="App::PropertyMap">
+            <Map count="0">
+            </Map>
+        </Property>
+        <Property name="Meta" type="App::PropertyMap">
+            <Map count="0">
+            </Map>
+        </Property>
+        <Property name="ShowHidden" type="App::PropertyBool" status="1">
+            <Bool value="false"/>
+        </Property>
+        <Property name="TipName" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="Uid" type="App::PropertyUUID" status="1">
+            <Uuid value="42f0180b-c93d-4983-8ce1-12833f3d00bd"/>
+        </Property>
+        <Property name="UseHasher" type="App::PropertyBool" status="1">
+            <Bool value="true"/>
+        </Property>
+    </Properties>
+    <Objects Count="5">
+        <Object type="Part::FeaturePython" name="Assembly" id="3502" ViewType="Gui::ViewProviderLinkPython" />
+        <Object type="App::FeaturePython" name="Constraints" id="3503" ViewType="Gui::ViewProviderLinkPython" />
+        <Object type="App::FeaturePython" name="Elements" id="3504" ViewType="Gui::ViewProviderLinkPython" />
+        <Object type="App::FeaturePython" name="Parts" id="3505" ViewType="Gui::ViewProviderLinkPython" />
+        <Object type="Spreadsheet::Sheet" name="Spreadsheet" id="3506" ViewType="SpreadsheetGui::ViewProviderSheet" />
+    </Objects>
+    <ObjectData Count="5">
+        <Object name="Assembly" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="App::LinkBaseExtensionPython" name="LinkBaseExtensionPython">
+                </Extension>
+            </Extensions>
+            <Properties Count="18">
+                <Property name="AutoRelax" type="App::PropertyBool" group="Solver" doc="" attr="0" ro="0" hide="0">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="BuildShape" type="App::PropertyEnumeration" group="Base" doc="" attr="0" ro="0" hide="0">
+                    <Integer value="0" CustomEnum="true"/>
+                    <CustomEnumList count="4">
+                        <Enum value="None"/>
+                        <Enum value="Compound"/>
+                        <Enum value="Fuse"/>
+                        <Enum value="Cut"/>
+                    </CustomEnumList>
+                </Property>
+                <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="266">
+                    <LinkSub value="" count="0">
+                    </LinkSub>
+                </Property>
+                <Property name="ColoredElements1" type="App::PropertyLinkSubHidden" group="Base" doc="" attr="0" ro="0" hide="0">
+                    <LinkSub value="" count="0">
+                    </LinkSub>
+                </Property>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="ExtensionProxy" type="App::PropertyPythonObject">
+                    <Python value="bnVsbA==" encoded="yes" json="yes"/>
+                </Property>
+                <Property name="Group" type="App::PropertyLinkList" group="Base" doc="" attr="0" ro="0" hide="0" status="266">
+                    <LinkList count="3">
+                        <Link value="Constraints"/>
+                        <Link value="Elements"/>
+                        <Link value="Parts"/>
+                    </LinkList>
+                </Property>
+                <Property name="GroupMode" type="App::PropertyEnumeration" group="Base" doc="" attr="0" ro="0" hide="0" status="282">
+                </Property>
+                <Property name="Label" type="App::PropertyString">
+                    <String value="common_parameters_______________________PID10"/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="256">
+                    <PropertyPlacement Px="0.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000" A="0.000000000000" Ox="0.000000000000" Oy="0.000000000000" Oz="1.000000000000"/>
+                </Property>
+                <Property name="Proxy" type="App::PropertyPythonObject">
+                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="Assembly"/>
+                </Property>
+                <Property name="Shape" type="Part::PropertyPartShape" status="16">
+                </Property>
+                <Property name="SolverType" type="App::PropertyEnumeration" group="Solver" doc="" attr="2" ro="0" hide="0">
+                </Property>
+                <Property name="Verbose" type="App::PropertyBool" group="Solver" doc="" attr="0" ro="0" hide="0">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="136">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="VisibilityList" type="App::PropertyBoolList" group="Base" doc="" attr="0" ro="0" hide="0" status="394">
+                    <BoolList value="111"/>
+                </Property>
+                <Property name="_LinkRecomputed" type="App::PropertyBool">
+                </Property>
+                <Property name="_SolverType" type="App::PropertyInteger" group="Solver" doc="" attr="0" ro="0" hide="1">
+                    <Integer value="1"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Constraints" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="App::LinkBaseExtensionPython" name="LinkBaseExtensionPython">
+                </Extension>
+            </Extensions>
+            <Properties Count="9">
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="ExtensionProxy" type="App::PropertyPythonObject">
+                    <Python value="bnVsbA==" encoded="yes" json="yes"/>
+                </Property>
+                <Property name="Group" type="App::PropertyLinkList" group="Base" doc="" attr="0" ro="0" hide="0" status="266">
+                    <LinkList count="0">
+                    </LinkList>
+                </Property>
+                <Property name="GroupMode" type="App::PropertyEnumeration" group="Base" doc="" attr="0" ro="0" hide="0" status="282">
+                </Property>
+                <Property name="Label" type="App::PropertyString">
+                    <String value="Constraints"/>
+                </Property>
+                <Property name="Proxy" type="App::PropertyPythonObject">
+                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="AsmConstraintGroup"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="136">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="VisibilityList" type="App::PropertyBoolList" group="Base" doc="" attr="0" ro="0" hide="0" status="394">
+                    <BoolList value=""/>
+                </Property>
+                <Property name="_LinkRecomputed" type="App::PropertyBool">
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Elements" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="App::LinkBaseExtensionPython" name="LinkBaseExtensionPython">
+                </Extension>
+            </Extensions>
+            <Properties Count="9">
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="ExtensionProxy" type="App::PropertyPythonObject">
+                    <Python value="bnVsbA==" encoded="yes" json="yes"/>
+                </Property>
+                <Property name="Group" type="App::PropertyLinkList" group="Base" doc="" attr="0" ro="0" hide="0" status="266">
+                    <LinkList count="0">
+                    </LinkList>
+                </Property>
+                <Property name="GroupMode" type="App::PropertyEnumeration" group="Base" doc="" attr="0" ro="0" hide="0" status="282">
+                </Property>
+                <Property name="Label" type="App::PropertyString">
+                    <String value="Elements"/>
+                </Property>
+                <Property name="Proxy" type="App::PropertyPythonObject">
+                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="AsmElementGroup"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="136">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="VisibilityList" type="App::PropertyBoolList" group="Base" doc="" attr="0" ro="0" hide="0" status="906">
+                    <BoolList value=""/>
+                </Property>
+                <Property name="_LinkRecomputed" type="App::PropertyBool">
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Parts" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="App::LinkBaseExtensionPython" name="LinkBaseExtensionPython">
+                </Extension>
+            </Extensions>
+            <Properties Count="9">
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="ExtensionProxy" type="App::PropertyPythonObject">
+                    <Python value="bnVsbA==" encoded="yes" json="yes"/>
+                </Property>
+                <Property name="Group" type="App::PropertyLinkList" group="Base" doc="" attr="0" ro="0" hide="0" status="264">
+                    <LinkList count="1">
+                        <Link value="Spreadsheet"/>
+                    </LinkList>
+                </Property>
+                <Property name="GroupMode" type="App::PropertyEnumeration" group="Base" doc="" attr="0" ro="0" hide="0" status="256">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Label" type="App::PropertyString">
+                    <String value="Parts"/>
+                </Property>
+                <Property name="Proxy" type="App::PropertyPythonObject">
+                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="AsmPartGroup"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="136">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="VisibilityList" type="App::PropertyBoolList" group="Base" doc="" attr="0" ro="0" hide="0" status="266">
+                    <BoolList value="1"/>
+                </Property>
+                <Property name="_LinkRecomputed" type="App::PropertyBool">
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Spreadsheet">
+            <Properties Count="6" TransientCount="15">
+                <_Property name="A1" type="App::PropertyString" status="0"/>
+                <_Property name="A2" type="App::PropertyString" status="0"/>
+                <_Property name="A3" type="App::PropertyString" status="0"/>
+                <_Property name="A4" type="App::PropertyString" status="0"/>
+                <_Property name="A6" type="App::PropertyString" status="0"/>
+                <_Property name="B1" type="App::PropertyString" status="0"/>
+                <_Property name="B2" type="App::PropertyFloat" status="0"/>
+                <_Property name="B3" type="App::PropertyFloat" status="0"/>
+                <_Property name="B4" type="App::PropertyFloat" status="0"/>
+                <_Property name="B6" type="App::PropertyFloat" status="0"/>
+                <_Property name="car_height" type="App::PropertyFloat" status="0"/>
+                <_Property name="car_length" type="App::PropertyFloat" status="0"/>
+                <_Property name="car_width" type="App::PropertyFloat" status="0"/>
+                <_Property name="card_board_tickness" type="App::PropertyFloat" status="0"/>
+                <_Property name="docDeps" type="App::PropertyLinkList" status="0"/>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString">
+                    <String value="common_parameters"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="136">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="cells" type="Spreadsheet::PropertySheet">
+                    <Cells Count="10">
+                        <Cell address="A1" content="alias" />
+                        <Cell address="B1" content="value" />
+                        <Cell address="A2" content="car_width" />
+                        <Cell address="B2" content="100" alias="car_width" />
+                        <Cell address="A3" content="car_length" />
+                        <Cell address="B3" content="200" alias="car_length" />
+                        <Cell address="A4" content="car_height" />
+                        <Cell address="B4" content="100" alias="car_height" />
+                        <Cell address="A6" content="card_board_tickness" />
+                        <Cell address="B6" content="2" alias="card_board_tickness" />
+                    </Cells>
+                </Property>
+                <Property name="columnWidths" type="Spreadsheet::PropertyColumnWidths">
+                    <ColumnInfo Count="2">
+                        <Column name="A" width="170" />
+                        <Column name="B" width="116" />
+                    </ColumnInfo>
+                </Property>
+                <Property name="rowHeights" type="Spreadsheet::PropertyRowHeights">
+                    <RowInfo Count="0">
+                    </RowInfo>
+                </Property>
+            </Properties>
+        </Object>
+    </ObjectData>
+</Document>
+
+12482|12482|A|GuiDocument.xml
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="1">
+    <ViewProviderData Count="5">
+        <ViewProvider name="Assembly" expanded="1" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="14">
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.000000000000"/>
+                </Property>
+                <Property name="MaterialList" type="App::PropertyMaterialList" status="65">
+                    <MaterialList file=""/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OverrideColorList" type="App::PropertyColorList" status="1">
+                    <ColorList file=""/>
+                </Property>
+                <Property name="OverrideMaterial" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="OverrideMaterialList" type="App::PropertyBoolList" status="1">
+                    <BoolList value=""/>
+                </Property>
+                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.000000000000"/>
+                </Property>
+                <Property name="Proxy" type="App::PropertyPythonObject" status="1">
+                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="ViewProviderAssembly"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="1728052992" specularColor="0" emissiveColor="0" shininess="0.200000002980" transparency="0.000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="9">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Parts" expanded="1" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="14">
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.000000000000"/>
+                </Property>
+                <Property name="MaterialList" type="App::PropertyMaterialList" status="65">
+                    <MaterialList file=""/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OverrideColorList" type="App::PropertyColorList" status="1">
+                    <ColorList file=""/>
+                </Property>
+                <Property name="OverrideMaterial" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="OverrideMaterialList" type="App::PropertyBoolList" status="1">
+                    <BoolList value=""/>
+                </Property>
+                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.000000000000"/>
+                </Property>
+                <Property name="Proxy" type="App::PropertyPythonObject" status="1">
+                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="ViewProviderAsmPartGroup"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="1728052992" specularColor="0" emissiveColor="0" shininess="0.200000002980" transparency="0.000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="9">
+                    <Bool value="false"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Constraints" expanded="0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="14">
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.000000000000"/>
+                </Property>
+                <Property name="MaterialList" type="App::PropertyMaterialList" status="65">
+                    <MaterialList file=""/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OverrideColorList" type="App::PropertyColorList" status="1">
+                    <ColorList file=""/>
+                </Property>
+                <Property name="OverrideMaterial" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="OverrideMaterialList" type="App::PropertyBoolList" status="1">
+                    <BoolList value=""/>
+                </Property>
+                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.000000000000"/>
+                </Property>
+                <Property name="Proxy" type="App::PropertyPythonObject" status="1">
+                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="ViewProviderAsmConstraintGroup"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="1728052992" specularColor="0" emissiveColor="0" shininess="0.200000002980" transparency="0.000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="9">
+                    <Bool value="false"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Elements" expanded="0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="14">
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.000000000000"/>
+                </Property>
+                <Property name="MaterialList" type="App::PropertyMaterialList" status="65">
+                    <MaterialList file=""/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OverrideColorList" type="App::PropertyColorList" status="1">
+                    <ColorList file=""/>
+                </Property>
+                <Property name="OverrideMaterial" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="OverrideMaterialList" type="App::PropertyBoolList" status="1">
+                    <BoolList value=""/>
+                </Property>
+                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.000000000000"/>
+                </Property>
+                <Property name="Proxy" type="App::PropertyPythonObject" status="1">
+                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="ViewProviderAsmElementGroup"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="1728052992" specularColor="0" emissiveColor="0" shininess="0.200000002980" transparency="0.000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="9">
+                    <Bool value="false"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Spreadsheet" expanded="0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="4" TransientCount="0">
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+    </ViewProviderData>
+    <Camera settings="  PerspectiveCamera {   heightAngle 0.78539819  } "/>
+</Document>
+
