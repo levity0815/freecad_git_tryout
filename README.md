@@ -18,7 +18,7 @@ The goal of this approach is that multiple users can work together on different 
 
 ## The model
 
-The model used here is derived from the [public LS-DYNA models of the Toyota Yaris](https://www.nhtsa.gov/crash-simulation-vehicle-models). The geometry was generated using [ANSA](https://www.beta-cae.com/ansa.htm). Of course, this is not a real CAD model as designers would generate it. The purpose is to investigate/demonstrate ways of collaboration with CAD data when working in distributed teams.
+The model used here is derived from the [public LS-DYNA models of the Toyota Yaris](https://www.nhtsa.gov/crash-simulation-vehicle-models) of the NHTSA. The geometry was generated using [ANSA](https://www.beta-cae.com/ansa.htm). Of course, this is not a real CAD model as designers would generate it. The purpose is to investigate/demonstrate ways of collaboration with CAD data when working in distributed teams.
 
 ## Dealing with zipped FreeCAD files
 
