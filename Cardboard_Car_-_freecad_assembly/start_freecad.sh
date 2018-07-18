@@ -11,4 +11,5 @@ echo "deleting all fcstd1 files in: `pwd` ... since I do not want them in versio
 
 find -iname "*.fcstd1" | xargs -i rm -vrf {}
 find -iname "assembly.fcstd" | xargs -i rm -vrf {}
+find -iname "structure.json" | xargs -i rm -vrf {}
 
