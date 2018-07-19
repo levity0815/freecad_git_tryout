@@ -1,4 +1,4 @@
-19701|19701|A|Document.xml
+20592|20592|A|Document.xml
 <?xml version='1.0' encoding='utf-8'?>
 <!--
  FreeCAD Document, see http://www.freecadweb.org for more information...
@@ -32,7 +32,7 @@
             <String value="Marko Thiele"/>
         </Property>
         <Property name="LastModifiedDate" type="App::PropertyString" status="1">
-            <String value="2018-07-19T16:38:35+02:00"/>
+            <String value="2018-07-19T18:07:51+02:00"/>
         </Property>
         <Property name="License" type="App::PropertyString" status="1">
             <String value="CreativeCommons Attribution"/>
@@ -248,7 +248,7 @@
             </Properties>
         </Object>
         <Object name="Spreadsheet">
-            <Properties Count="6" TransientCount="36">
+            <Properties Count="6" TransientCount="42">
                 <_Property name="A1" type="App::PropertyString" status="0"/>
                 <_Property name="A10" type="App::PropertyString" status="0"/>
                 <_Property name="A11" type="App::PropertyString" status="0"/>
@@ -256,6 +256,8 @@
                 <_Property name="A13" type="App::PropertyString" status="0"/>
                 <_Property name="A14" type="App::PropertyString" status="0"/>
                 <_Property name="A15" type="App::PropertyString" status="0"/>
+                <_Property name="A16" type="App::PropertyString" status="0"/>
+                <_Property name="A17" type="App::PropertyString" status="0"/>
                 <_Property name="A2" type="App::PropertyString" status="0"/>
                 <_Property name="A3" type="App::PropertyString" status="0"/>
                 <_Property name="A4" type="App::PropertyString" status="0"/>
@@ -268,6 +270,8 @@
                 <_Property name="B13" type="App::PropertyFloat" status="0"/>
                 <_Property name="B14" type="App::PropertyFloat" status="0"/>
                 <_Property name="B15" type="App::PropertyFloat" status="0"/>
+                <_Property name="B16" type="App::PropertyFloat" status="0"/>
+                <_Property name="B17" type="App::PropertyFloat" status="0"/>
                 <_Property name="B2" type="App::PropertyString" status="0"/>
                 <_Property name="B3" type="App::PropertyFloat" status="0"/>
                 <_Property name="B4" type="App::PropertyFloat" status="0"/>
@@ -277,14 +281,16 @@
                 <_Property name="car_height" type="App::PropertyFloat" status="0"/>
                 <_Property name="car_length" type="App::PropertyFloat" status="0"/>
                 <_Property name="car_width" type="App::PropertyFloat" status="0"/>
-                <_Property name="card_board_tickness" type="App::PropertyFloat" status="0"/>
+                <_Property name="card_board_thickness" type="App::PropertyFloat" status="0"/>
                 <_Property name="docDeps" type="App::PropertyLinkList" status="0"/>
                 <_Property name="relative_wheel_to_body" type="App::PropertyFloat" status="0"/>
                 <_Property name="relative_wheelbase" type="App::PropertyFloat" status="0"/>
+                <_Property name="relative_wheelbase_offset" type="App::PropertyFloat" status="0"/>
                 <_Property name="wheel_diameter" type="App::PropertyFloat" status="0"/>
                 <_Property name="wheel_to_body" type="App::PropertyFloat" status="0"/>
                 <_Property name="wheel_width" type="App::PropertyFloat" status="0"/>
                 <_Property name="wheelbase" type="App::PropertyFloat" status="0"/>
+                <_Property name="wheelbase_offset" type="App::PropertyFloat" status="0"/>
                 <Property name="ExpressionEngine" type="App::PropertyExpressionEngine">
                     <ExpressionEngine count="0">
                     </ExpressionEngine>
@@ -296,37 +302,41 @@
                     <Bool value="false"/>
                 </Property>
                 <Property name="cells" type="Spreadsheet::PropertySheet">
-                    <Cells Count="25">
+                    <Cells Count="29">
                         <Cell address="A1" content="basic car dimensions" style="bold" rowSpan="1" colSpan="2" />
                         <Cell address="A2" content="alias" />
                         <Cell address="B2" content="value" />
                         <Cell address="A3" content="car_width" />
-                        <Cell address="B3" content="100" alias="car_width" />
+                        <Cell address="B3" content="160" alias="car_width" />
                         <Cell address="A4" content="car_length" />
-                        <Cell address="B4" content="200" alias="car_length" />
+                        <Cell address="B4" content="320" alias="car_length" />
                         <Cell address="A5" content="car_height" />
-                        <Cell address="B5" content="100" alias="car_height" />
-                        <Cell address="A7" content="card_board_tickness" />
-                        <Cell address="B7" content="2" alias="card_board_tickness" />
+                        <Cell address="B5" content="120" alias="car_height" />
+                        <Cell address="A7" content="card_board_thickness" />
+                        <Cell address="B7" content="2" alias="card_board_thickness" />
                         <Cell address="A9" content="wheel dimmensions" style="bold" />
                         <Cell address="B9" style="bold" />
                         <Cell address="A10" content="relative_wheelbase" />
-                        <Cell address="B10" content="0.59999999999999998" alias="relative_wheelbase" />
+                        <Cell address="B10" content="=200 / 320" alias="relative_wheelbase" />
                         <Cell address="A11" content="wheelbase" />
                         <Cell address="B11" content="=car_length * relative_wheelbase" alias="wheelbase" />
-                        <Cell address="A12" content="wheel_diameter" />
-                        <Cell address="B12" content="30" alias="wheel_diameter" />
-                        <Cell address="A13" content="relative_wheel_to_body" />
-                        <Cell address="B13" content="0.10000000000000001" alias="relative_wheel_to_body" />
-                        <Cell address="A14" content="wheel_to_body" />
-                        <Cell address="B14" content="=relative_wheel_to_body * wheel_diameter" alias="wheel_to_body" />
-                        <Cell address="A15" content="wheel_width" />
-                        <Cell address="B15" content="10" alias="wheel_width" />
+                        <Cell address="A12" content="relative_wheelbase_offset" />
+                        <Cell address="B12" content="=-1 * 5 / wheelbase" alias="relative_wheelbase_offset" />
+                        <Cell address="A13" content="wheelbase_offset" />
+                        <Cell address="B13" content="=relative_wheelbase_offset * wheelbase" alias="wheelbase_offset" />
+                        <Cell address="A14" content="wheel_diameter" />
+                        <Cell address="B14" content="60" alias="wheel_diameter" />
+                        <Cell address="A15" content="relative_wheel_to_body" />
+                        <Cell address="B15" content="0.12" alias="relative_wheel_to_body" />
+                        <Cell address="A16" content="wheel_to_body" />
+                        <Cell address="B16" content="=relative_wheel_to_body * wheel_diameter" alias="wheel_to_body" />
+                        <Cell address="A17" content="wheel_width" />
+                        <Cell address="B17" content="=card_board_thickness * 10" alias="wheel_width" />
                     </Cells>
                 </Property>
                 <Property name="columnWidths" type="Spreadsheet::PropertyColumnWidths">
                     <ColumnInfo Count="2">
-                        <Column name="A" width="170" />
+                        <Column name="A" width="202" />
                         <Column name="B" width="116" />
                     </ColumnInfo>
                 </Property>
@@ -339,7 +349,7 @@
     </ObjectData>
 </Document>
 
-12574|12574|A|GuiDocument.xml
+12622|12622|A|GuiDocument.xml
 <?xml version='1.0' encoding='utf-8'?>
 <!--
  FreeCAD Document, see http://www.freecadweb.org for more information...
@@ -567,6 +577,6 @@
             </Properties>
         </ViewProvider>
     </ViewProviderData>
-    <Camera settings="  PerspectiveCamera {   position 0 0 1   orientation 0 0 1  0   nearDistance 1   farDistance 10   focalDistance 5   heightAngle 0.78539819  } "/>
+    <Camera settings="  PerspectiveCamera {   viewportMapping ADJUST_CAMERA   position 0 0 1   orientation 0 0 1  0   nearDistance 1   farDistance 10   aspectRatio 1   focalDistance 5   heightAngle 0.78539819  } "/>
 </Document>
 
