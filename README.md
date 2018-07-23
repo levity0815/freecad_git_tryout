@@ -4,10 +4,10 @@
 
 This is a playground with the purpose to try to manage FreeCAD documents with git. Basically, it contains folders which contain FreeCAD files and each FreeCAD file contains the geometry of one part.
 
-The whole geometry of the model is supposed to be composed of all parts. So the idea is to load all parts in FreeCAD and create a part structure where the files of the individual parts are just linked into the assembly structure. To achieve this FreeCAD is run with the script `create_assembly.py`:
+The whole geometry of the model is supposed to be composed of all parts. So the idea is to load all parts in FreeCAD and create a part structure where the files of the individual parts are just linked into the assembly structure. To achieve this FreeCAD is run with the scripts from [Peters Version Control workbench](https://github.com/p-friedrich/versioncontrol-workbench) e.g.:
 
 ```
-FreeCAD create_assembly.py
+~/PROJEKTE/FreeCAD_git/freecad_git_tryout/Toyota_Yaris_-_freecad_assembly$ ../../versioncontrol-workbench/scripts/open_from_folder.py body_in_white___________________________PID0
 ```
 
 This script will require the [Assembly3](https://forum.freecadweb.org/viewtopic.php?t=25712) workbench of FreeCAD in order to deal with the Links. Versions of FreeCAD containing this workbench can be downloaded [here](https://github.com/realthunder/FreeCAD_assembly3/releases). Some basic ideas of how to collaborate with FreeCAD using git are also discussed in this [FreeCAD Forum thread](https://forum.freecadweb.org/viewtopic.php?f=22&t=8688).
