@@ -1,4 +1,4 @@
-14843|14843|A|Document.xml
+14788|14788|A|Document.xml
 <?xml version='1.0' encoding='utf-8'?>
 <!--
  FreeCAD Document, see http://www.freecadweb.org for more information...
@@ -13,10 +13,10 @@
         <Property name="Comment" type="App::PropertyString">
             <String value=""/>
         </Property>
-        <Property name="Company" type="App::PropertyString" status="1">
+        <Property name="Company" type="App::PropertyString">
             <String value=""/>
         </Property>
-        <Property name="CreatedBy" type="App::PropertyString" status="1">
+        <Property name="CreatedBy" type="App::PropertyString">
             <String value=""/>
         </Property>
         <Property name="CreationDate" type="App::PropertyString" status="1">
@@ -28,11 +28,11 @@
         <Property name="Label" type="App::PropertyString" status="1">
             <String value="radiator_frame_L________________________PID44"/>
         </Property>
-        <Property name="LastModifiedBy" type="App::PropertyString" status="1">
-            <String value="Marko Thiele"/>
+        <Property name="LastModifiedBy" type="App::PropertyString">
+            <String value=""/>
         </Property>
         <Property name="LastModifiedDate" type="App::PropertyString" status="1">
-            <String value="2018-07-11T14:29:16+02:00"/>
+            <String value="2018-07-10T15:06:45+02:00"/>
         </Property>
         <Property name="License" type="App::PropertyString" status="1">
             <String value="All rights reserved"/>
@@ -136,8 +136,8 @@
                 </Property>
                 <Property name="GroupMode" type="App::PropertyEnumeration" group="Base" doc="" attr="0" ro="0" hide="0" status="282">
                 </Property>
-                <Property name="Label" type="App::PropertyString" status="1">
-                    <String value="radiator_frame_L________________________PID44"/>
+                <Property name="Label" type="App::PropertyString">
+                    <String value="radiator_frame_L________________________PID045"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
                     <PropertyPlacement Px="0.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000" A="0.000000000000" Ox="0.000000000000" Oy="0.000000000000" Oz="1.000000000000"/>
