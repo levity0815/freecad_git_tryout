@@ -1,4 +1,4 @@
-14790|14790|A|Document.xml
+14812|14812|A|Document.xml
 <?xml version='1.0' encoding='utf-8'?>
 <!--
  FreeCAD Document, see http://www.freecadweb.org for more information...
@@ -26,13 +26,13 @@
             <String value=""/>
         </Property>
         <Property name="Label" type="App::PropertyString" status="1">
-            <String value="rail_frame_upper_support_right__________PID162"/>
+            <String value="rail_frame_upper_support_right__________PID163"/>
         </Property>
         <Property name="LastModifiedBy" type="App::PropertyString">
             <String value=""/>
         </Property>
         <Property name="LastModifiedDate" type="App::PropertyString" status="1">
-            <String value="2018-07-25T14:56:19+02:00"/>
+            <String value="2018-08-08T11:03:15+02:00"/>
         </Property>
         <Property name="License" type="App::PropertyString" status="1">
             <String value="All rights reserved"/>
@@ -40,11 +40,11 @@
         <Property name="LicenseURL" type="App::PropertyString" status="1">
             <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
         </Property>
-        <Property name="Material" type="App::PropertyMap">
+        <Property name="Material" type="App::PropertyMap" status="1">
             <Map count="0">
             </Map>
         </Property>
-        <Property name="Meta" type="App::PropertyMap">
+        <Property name="Meta" type="App::PropertyMap" status="1">
             <Map count="0">
             </Map>
         </Property>
@@ -80,7 +80,7 @@
                     </ExpressionEngine>
                 </Property>
                 <Property name="Label" type="App::PropertyString" status="1">
-                    <String value="162_SHELL"/>
+                    <String value="163_SHELL"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement">
                     <PropertyPlacement Px="0.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000" A="0.000000000000" Ox="0.000000000000" Oy="0.000000000000" Oz="1.000000000000"/>
@@ -137,7 +137,7 @@
                 <Property name="GroupMode" type="App::PropertyEnumeration" group="Base" doc="" attr="0" ro="0" hide="0" status="282">
                 </Property>
                 <Property name="Label" type="App::PropertyString" status="1">
-                    <String value="rail_frame_upper_support_right__________PID162"/>
+                    <String value="rail_frame_upper_support_right__________PID163"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
                     <PropertyPlacement Px="0.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000" A="0.000000000000" Ox="0.000000000000" Oy="0.000000000000" Oz="1.000000000000"/>
@@ -2946,206 +2946,6 @@ Sh
 -->
 <Document SchemaVersion="1">
     <ViewProviderData Count="5">
-        <ViewProvider name="Assembly" expanded="1" Extensions="True">
-            <Extensions Count="1">
-                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
-                </Extension>
-            </Extensions>
-            <Properties Count="14">
-                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
-                    <Float value="2.000000000000"/>
-                </Property>
-                <Property name="MaterialList" type="App::PropertyMaterialList" status="65">
-                    <MaterialList file=""/>
-                </Property>
-                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="OverrideColorList" type="App::PropertyColorList" status="1">
-                    <ColorList file=""/>
-                </Property>
-                <Property name="OverrideMaterial" type="App::PropertyBool" status="1">
-                    <Bool value="false"/>
-                </Property>
-                <Property name="OverrideMaterialList" type="App::PropertyBoolList" status="1">
-                    <BoolList value=""/>
-                </Property>
-                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
-                    <Float value="2.000000000000"/>
-                </Property>
-                <Property name="Proxy" type="App::PropertyPythonObject" status="1">
-                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="ViewProviderAssembly"/>
-                </Property>
-                <Property name="Selectable" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
-                    <PropertyMaterial ambientColor="858993408" diffuseColor="1728052992" specularColor="0" emissiveColor="0" shininess="0.200000002980" transparency="0.000000000000"/>
-                </Property>
-                <Property name="ShowInTree" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-                <Property name="Visibility" type="App::PropertyBool" status="9">
-                    <Bool value="true"/>
-                </Property>
-            </Properties>
-        </ViewProvider>
-        <ViewProvider name="Elements" expanded="0" Extensions="True">
-            <Extensions Count="1">
-                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
-                </Extension>
-            </Extensions>
-            <Properties Count="14">
-                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
-                    <Float value="2.000000000000"/>
-                </Property>
-                <Property name="MaterialList" type="App::PropertyMaterialList" status="65">
-                    <MaterialList file=""/>
-                </Property>
-                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="OverrideColorList" type="App::PropertyColorList" status="1">
-                    <ColorList file=""/>
-                </Property>
-                <Property name="OverrideMaterial" type="App::PropertyBool" status="1">
-                    <Bool value="false"/>
-                </Property>
-                <Property name="OverrideMaterialList" type="App::PropertyBoolList" status="1">
-                    <BoolList value=""/>
-                </Property>
-                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
-                    <Float value="2.000000000000"/>
-                </Property>
-                <Property name="Proxy" type="App::PropertyPythonObject" status="1">
-                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="ViewProviderAsmElementGroup"/>
-                </Property>
-                <Property name="Selectable" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
-                    <PropertyMaterial ambientColor="858993408" diffuseColor="1728052992" specularColor="0" emissiveColor="0" shininess="0.200000002980" transparency="0.000000000000"/>
-                </Property>
-                <Property name="ShowInTree" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-                <Property name="Visibility" type="App::PropertyBool" status="9">
-                    <Bool value="false"/>
-                </Property>
-            </Properties>
-        </ViewProvider>
-        <ViewProvider name="Constraints" expanded="0" Extensions="True">
-            <Extensions Count="1">
-                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
-                </Extension>
-            </Extensions>
-            <Properties Count="14">
-                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
-                    <Float value="2.000000000000"/>
-                </Property>
-                <Property name="MaterialList" type="App::PropertyMaterialList" status="65">
-                    <MaterialList file=""/>
-                </Property>
-                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="OverrideColorList" type="App::PropertyColorList" status="1">
-                    <ColorList file=""/>
-                </Property>
-                <Property name="OverrideMaterial" type="App::PropertyBool" status="1">
-                    <Bool value="false"/>
-                </Property>
-                <Property name="OverrideMaterialList" type="App::PropertyBoolList" status="1">
-                    <BoolList value=""/>
-                </Property>
-                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
-                    <Float value="2.000000000000"/>
-                </Property>
-                <Property name="Proxy" type="App::PropertyPythonObject" status="1">
-                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="ViewProviderAsmConstraintGroup"/>
-                </Property>
-                <Property name="Selectable" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
-                    <PropertyMaterial ambientColor="858993408" diffuseColor="1728052992" specularColor="0" emissiveColor="0" shininess="0.200000002980" transparency="0.000000000000"/>
-                </Property>
-                <Property name="ShowInTree" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-                <Property name="Visibility" type="App::PropertyBool" status="9">
-                    <Bool value="false"/>
-                </Property>
-            </Properties>
-        </ViewProvider>
-        <ViewProvider name="Parts" expanded="0" Extensions="True">
-            <Extensions Count="1">
-                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
-                </Extension>
-            </Extensions>
-            <Properties Count="14">
-                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
-                    <Float value="2.000000000000"/>
-                </Property>
-                <Property name="MaterialList" type="App::PropertyMaterialList" status="65">
-                    <MaterialList file=""/>
-                </Property>
-                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="OverrideColorList" type="App::PropertyColorList" status="1">
-                    <ColorList file=""/>
-                </Property>
-                <Property name="OverrideMaterial" type="App::PropertyBool" status="1">
-                    <Bool value="false"/>
-                </Property>
-                <Property name="OverrideMaterialList" type="App::PropertyBoolList" status="1">
-                    <BoolList value=""/>
-                </Property>
-                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
-                    <Float value="2.000000000000"/>
-                </Property>
-                <Property name="Proxy" type="App::PropertyPythonObject" status="1">
-                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="ViewProviderAsmPartGroup"/>
-                </Property>
-                <Property name="Selectable" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
-                    <PropertyMaterial ambientColor="858993408" diffuseColor="1728052992" specularColor="0" emissiveColor="0" shininess="0.200000002980" transparency="0.000000000000"/>
-                </Property>
-                <Property name="ShowInTree" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-                <Property name="Visibility" type="App::PropertyBool" status="9">
-                    <Bool value="false"/>
-                </Property>
-            </Properties>
-        </ViewProvider>
         <ViewProvider name="Shell" expanded="0" Extensions="True">
             <Extensions Count="1">
                 <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
@@ -3234,6 +3034,206 @@ Sh
                     <Integer value="0"/>
                 </Property>
                 <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Assembly" expanded="1" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="14">
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.000000000000"/>
+                </Property>
+                <Property name="MaterialList" type="App::PropertyMaterialList" status="65">
+                    <MaterialList file=""/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OverrideColorList" type="App::PropertyColorList" status="1">
+                    <ColorList file=""/>
+                </Property>
+                <Property name="OverrideMaterial" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="OverrideMaterialList" type="App::PropertyBoolList" status="1">
+                    <BoolList value=""/>
+                </Property>
+                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.000000000000"/>
+                </Property>
+                <Property name="Proxy" type="App::PropertyPythonObject" status="1">
+                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="ViewProviderAssembly"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="1728052992" specularColor="0" emissiveColor="0" shininess="0.200000002980" transparency="0.000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="9">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Constraints" expanded="0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="14">
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.000000000000"/>
+                </Property>
+                <Property name="MaterialList" type="App::PropertyMaterialList" status="65">
+                    <MaterialList file=""/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OverrideColorList" type="App::PropertyColorList" status="1">
+                    <ColorList file=""/>
+                </Property>
+                <Property name="OverrideMaterial" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="OverrideMaterialList" type="App::PropertyBoolList" status="1">
+                    <BoolList value=""/>
+                </Property>
+                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.000000000000"/>
+                </Property>
+                <Property name="Proxy" type="App::PropertyPythonObject" status="1">
+                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="ViewProviderAsmConstraintGroup"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="1728052992" specularColor="0" emissiveColor="0" shininess="0.200000002980" transparency="0.000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="9">
+                    <Bool value="false"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Elements" expanded="0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="14">
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.000000000000"/>
+                </Property>
+                <Property name="MaterialList" type="App::PropertyMaterialList" status="65">
+                    <MaterialList file=""/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OverrideColorList" type="App::PropertyColorList" status="1">
+                    <ColorList file=""/>
+                </Property>
+                <Property name="OverrideMaterial" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="OverrideMaterialList" type="App::PropertyBoolList" status="1">
+                    <BoolList value=""/>
+                </Property>
+                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.000000000000"/>
+                </Property>
+                <Property name="Proxy" type="App::PropertyPythonObject" status="1">
+                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="ViewProviderAsmElementGroup"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="1728052992" specularColor="0" emissiveColor="0" shininess="0.200000002980" transparency="0.000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="9">
+                    <Bool value="false"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Parts" expanded="1" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="14">
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.000000000000"/>
+                </Property>
+                <Property name="MaterialList" type="App::PropertyMaterialList" status="65">
+                    <MaterialList file=""/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OverrideColorList" type="App::PropertyColorList" status="1">
+                    <ColorList file=""/>
+                </Property>
+                <Property name="OverrideMaterial" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="OverrideMaterialList" type="App::PropertyBoolList" status="1">
+                    <BoolList value=""/>
+                </Property>
+                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.000000000000"/>
+                </Property>
+                <Property name="Proxy" type="App::PropertyPythonObject" status="1">
+                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="ViewProviderAsmPartGroup"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="1728052992" specularColor="0" emissiveColor="0" shininess="0.200000002980" transparency="0.000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="9">
                     <Bool value="false"/>
                 </Property>
             </Properties>

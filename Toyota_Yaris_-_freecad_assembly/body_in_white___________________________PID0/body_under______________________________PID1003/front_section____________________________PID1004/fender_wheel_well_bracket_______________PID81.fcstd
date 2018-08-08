@@ -1,10 +1,485 @@
-14776|14776|A|Document.xml
+35085|35085|A|Document.xml
 <?xml version='1.0' encoding='utf-8'?>
 <!--
  FreeCAD Document, see http://www.freecadweb.org for more information...
 -->
 <Document SchemaVersion="4" ProgramVersion="0.17R5235 (Git shallow)" FileVersion="1" StringHasher="1">
-    <StringHasher count="0" saveall="0" threshold="0">
+    <StringHasher count="475" saveall="0" threshold="0">
+<Item text="Vertex1;:T2861:7:V" id="1"/>
+<Item text="Vertex2;:T2861:7:V" id="2"/>
+<Item text="Vertex3;:T2861:7:V" id="3"/>
+<Item text="Vertex4;:T2861:7:V" id="4"/>
+<Item text="Vertex5;:T2861:7:V" id="5"/>
+<Item text="Vertex6;:T2861:7:V" id="6"/>
+<Item text="Vertex7;:T2861:7:V" id="7"/>
+<Item text="Vertex8;:T2861:7:V" id="8"/>
+<Item text="Vertex9;:T2861:7:V" id="9"/>
+<Item text="Vertex10;:T2861:8:V" id="10"/>
+<Item text="Vertex11;:T2861:8:V" id="11"/>
+<Item text="Vertex12;:T2861:8:V" id="12"/>
+<Item text="Vertex13;:T2861:8:V" id="13"/>
+<Item text="Vertex14;:T2861:8:V" id="14"/>
+<Item text="Vertex15;:T2861:8:V" id="15"/>
+<Item text="Vertex16;:T2861:8:V" id="16"/>
+<Item text="Vertex17;:T2861:8:V" id="17"/>
+<Item text="Vertex18;:T2861:8:V" id="18"/>
+<Item text="Vertex19;:T2861:8:V" id="19"/>
+<Item text="Vertex20;:T2861:8:V" id="20"/>
+<Item text="Vertex21;:T2861:8:V" id="21"/>
+<Item text="Vertex22;:T2861:8:V" id="22"/>
+<Item text="Vertex23;:T2861:8:V" id="23"/>
+<Item text="Vertex24;:T2861:8:V" id="24"/>
+<Item text="Vertex25;:T2861:8:V" id="25"/>
+<Item text="Vertex26;:T2861:8:V" id="26"/>
+<Item text="Vertex27;:T2861:8:V" id="27"/>
+<Item text="Vertex28;:T2861:8:V" id="28"/>
+<Item text="Vertex29;:T2861:8:V" id="29"/>
+<Item text="Vertex30;:T2861:8:V" id="30"/>
+<Item text="Vertex31;:T2861:8:V" id="31"/>
+<Item text="Vertex32;:T2861:8:V" id="32"/>
+<Item text="Vertex33;:T2861:8:V" id="33"/>
+<Item text="Vertex34;:T2861:8:V" id="34"/>
+<Item text="Vertex35;:T2861:8:V" id="35"/>
+<Item text="Vertex36;:T2861:8:V" id="36"/>
+<Item text="Vertex37;:T2861:8:V" id="37"/>
+<Item text="Vertex38;:T2861:8:V" id="38"/>
+<Item text="Vertex39;:T2861:8:V" id="39"/>
+<Item text="Vertex40;:T2861:8:V" id="40"/>
+<Item text="Vertex41;:T2861:8:V" id="41"/>
+<Item text="Vertex42;:T2861:8:V" id="42"/>
+<Item text="Vertex43;:T2861:8:V" id="43"/>
+<Item text="Vertex44;:T2861:8:V" id="44"/>
+<Item text="Vertex45;:T2861:8:V" id="45"/>
+<Item text="Vertex46;:T2861:8:V" id="46"/>
+<Item text="Vertex47;:T2861:8:V" id="47"/>
+<Item text="Vertex48;:T2861:8:V" id="48"/>
+<Item text="Vertex49;:T2861:8:V" id="49"/>
+<Item text="Vertex50;:T2861:8:V" id="50"/>
+<Item text="Vertex51;:T2861:8:V" id="51"/>
+<Item text="Vertex52;:T2861:8:V" id="52"/>
+<Item text="Vertex53;:T2861:8:V" id="53"/>
+<Item text="Vertex54;:T2861:8:V" id="54"/>
+<Item text="Vertex55;:T2861:8:V" id="55"/>
+<Item text="Vertex56;:T2861:8:V" id="56"/>
+<Item text="Vertex57;:T2861:8:V" id="57"/>
+<Item text="Vertex58;:T2861:8:V" id="58"/>
+<Item text="Vertex59;:T2861:8:V" id="59"/>
+<Item text="Vertex60;:T2861:8:V" id="60"/>
+<Item text="Vertex61;:T2861:8:V" id="61"/>
+<Item text="Vertex62;:T2861:8:V" id="62"/>
+<Item text="Vertex63;:T2861:8:V" id="63"/>
+<Item text="Vertex64;:T2861:8:V" id="64"/>
+<Item text="Vertex65;:T2861:8:V" id="65"/>
+<Item text="Vertex66;:T2861:8:V" id="66"/>
+<Item text="Vertex67;:T2861:8:V" id="67"/>
+<Item text="Vertex68;:T2861:8:V" id="68"/>
+<Item text="Vertex69;:T2861:8:V" id="69"/>
+<Item text="Vertex70;:T2861:8:V" id="70"/>
+<Item text="Vertex71;:T2861:8:V" id="71"/>
+<Item text="Vertex72;:T2861:8:V" id="72"/>
+<Item text="Vertex73;:T2861:8:V" id="73"/>
+<Item text="Vertex74;:T2861:8:V" id="74"/>
+<Item text="Vertex75;:T2861:8:V" id="75"/>
+<Item text="Vertex76;:T2861:8:V" id="76"/>
+<Item text="Vertex77;:T2861:8:V" id="77"/>
+<Item text="Vertex78;:T2861:8:V" id="78"/>
+<Item text="Vertex79;:T2861:8:V" id="79"/>
+<Item text="Vertex80;:T2861:8:V" id="80"/>
+<Item text="Vertex81;:T2861:8:V" id="81"/>
+<Item text="Vertex82;:T2861:8:V" id="82"/>
+<Item text="Vertex83;:T2861:8:V" id="83"/>
+<Item text="Vertex84;:T2861:8:V" id="84"/>
+<Item text="Vertex85;:T2861:8:V" id="85"/>
+<Item text="Vertex86;:T2861:8:V" id="86"/>
+<Item text="Vertex87;:T2861:8:V" id="87"/>
+<Item text="Vertex88;:T2861:8:V" id="88"/>
+<Item text="Vertex89;:T2861:8:V" id="89"/>
+<Item text="Vertex90;:T2861:8:V" id="90"/>
+<Item text="Vertex91;:T2861:8:V" id="91"/>
+<Item text="Vertex92;:T2861:8:V" id="92"/>
+<Item text="Vertex93;:T2861:8:V" id="93"/>
+<Item text="Vertex94;:T2861:8:V" id="94"/>
+<Item text="Vertex95;:T2861:8:V" id="95"/>
+<Item text="Vertex96;:T2861:8:V" id="96"/>
+<Item text="Vertex97;:T2861:8:V" id="97"/>
+<Item text="Vertex98;:T2861:8:V" id="98"/>
+<Item text="Vertex99;:T2861:8:V" id="99"/>
+<Item text="Vertex100;:T2861:9:V" id="100"/>
+<Item text="Vertex101;:T2861:9:V" id="101"/>
+<Item text="Vertex102;:T2861:9:V" id="102"/>
+<Item text="Vertex103;:T2861:9:V" id="103"/>
+<Item text="Vertex104;:T2861:9:V" id="104"/>
+<Item text="Vertex105;:T2861:9:V" id="105"/>
+<Item text="Vertex106;:T2861:9:V" id="106"/>
+<Item text="Vertex107;:T2861:9:V" id="107"/>
+<Item text="Vertex108;:T2861:9:V" id="108"/>
+<Item text="Vertex109;:T2861:9:V" id="109"/>
+<Item text="Vertex110;:T2861:9:V" id="110"/>
+<Item text="Vertex111;:T2861:9:V" id="111"/>
+<Item text="Vertex112;:T2861:9:V" id="112"/>
+<Item text="Vertex113;:T2861:9:V" id="113"/>
+<Item text="Vertex114;:T2861:9:V" id="114"/>
+<Item text="Vertex115;:T2861:9:V" id="115"/>
+<Item text="Vertex116;:T2861:9:V" id="116"/>
+<Item text="Vertex117;:T2861:9:V" id="117"/>
+<Item text="Vertex118;:T2861:9:V" id="118"/>
+<Item text="Vertex119;:T2861:9:V" id="119"/>
+<Item text="Vertex120;:T2861:9:V" id="120"/>
+<Item text="Vertex121;:T2861:9:V" id="121"/>
+<Item text="Vertex122;:T2861:9:V" id="122"/>
+<Item text="Vertex123;:T2861:9:V" id="123"/>
+<Item text="Vertex124;:T2861:9:V" id="124"/>
+<Item text="Vertex125;:T2861:9:V" id="125"/>
+<Item text="Vertex126;:T2861:9:V" id="126"/>
+<Item text="Vertex127;:T2861:9:V" id="127"/>
+<Item text="Vertex128;:T2861:9:V" id="128"/>
+<Item text="Vertex129;:T2861:9:V" id="129"/>
+<Item text="Vertex130;:T2861:9:V" id="130"/>
+<Item text="Vertex131;:T2861:9:V" id="131"/>
+<Item text="Vertex132;:T2861:9:V" id="132"/>
+<Item text="Vertex133;:T2861:9:V" id="133"/>
+<Item text="Vertex134;:T2861:9:V" id="134"/>
+<Item text="Vertex135;:T2861:9:V" id="135"/>
+<Item text="Vertex136;:T2861:9:V" id="136"/>
+<Item text="Vertex137;:T2861:9:V" id="137"/>
+<Item text="Vertex138;:T2861:9:V" id="138"/>
+<Item text="Vertex139;:T2861:9:V" id="139"/>
+<Item text="Vertex140;:T2861:9:V" id="140"/>
+<Item text="Edge1;:T2861:5:E" id="141"/>
+<Item text="Edge2;:T2861:5:E" id="142"/>
+<Item text="Edge3;:T2861:5:E" id="143"/>
+<Item text="Edge4;:T2861:5:E" id="144"/>
+<Item text="Edge5;:T2861:5:E" id="145"/>
+<Item text="Edge6;:T2861:5:E" id="146"/>
+<Item text="Edge7;:T2861:5:E" id="147"/>
+<Item text="Edge8;:T2861:5:E" id="148"/>
+<Item text="Edge9;:T2861:5:E" id="149"/>
+<Item text="Edge10;:T2861:6:E" id="150"/>
+<Item text="Edge11;:T2861:6:E" id="151"/>
+<Item text="Edge12;:T2861:6:E" id="152"/>
+<Item text="Edge13;:T2861:6:E" id="153"/>
+<Item text="Edge14;:T2861:6:E" id="154"/>
+<Item text="Edge15;:T2861:6:E" id="155"/>
+<Item text="Edge16;:T2861:6:E" id="156"/>
+<Item text="Edge17;:T2861:6:E" id="157"/>
+<Item text="Edge18;:T2861:6:E" id="158"/>
+<Item text="Edge19;:T2861:6:E" id="159"/>
+<Item text="Edge20;:T2861:6:E" id="160"/>
+<Item text="Edge21;:T2861:6:E" id="161"/>
+<Item text="Edge22;:T2861:6:E" id="162"/>
+<Item text="Edge23;:T2861:6:E" id="163"/>
+<Item text="Edge24;:T2861:6:E" id="164"/>
+<Item text="Edge25;:T2861:6:E" id="165"/>
+<Item text="Edge26;:T2861:6:E" id="166"/>
+<Item text="Edge27;:T2861:6:E" id="167"/>
+<Item text="Edge28;:T2861:6:E" id="168"/>
+<Item text="Edge29;:T2861:6:E" id="169"/>
+<Item text="Edge30;:T2861:6:E" id="170"/>
+<Item text="Edge31;:T2861:6:E" id="171"/>
+<Item text="Edge32;:T2861:6:E" id="172"/>
+<Item text="Edge33;:T2861:6:E" id="173"/>
+<Item text="Edge34;:T2861:6:E" id="174"/>
+<Item text="Edge35;:T2861:6:E" id="175"/>
+<Item text="Edge36;:T2861:6:E" id="176"/>
+<Item text="Edge37;:T2861:6:E" id="177"/>
+<Item text="Edge38;:T2861:6:E" id="178"/>
+<Item text="Edge39;:T2861:6:E" id="179"/>
+<Item text="Edge40;:T2861:6:E" id="180"/>
+<Item text="Edge41;:T2861:6:E" id="181"/>
+<Item text="Edge42;:T2861:6:E" id="182"/>
+<Item text="Edge43;:T2861:6:E" id="183"/>
+<Item text="Edge44;:T2861:6:E" id="184"/>
+<Item text="Edge45;:T2861:6:E" id="185"/>
+<Item text="Edge46;:T2861:6:E" id="186"/>
+<Item text="Edge47;:T2861:6:E" id="187"/>
+<Item text="Edge48;:T2861:6:E" id="188"/>
+<Item text="Edge49;:T2861:6:E" id="189"/>
+<Item text="Edge50;:T2861:6:E" id="190"/>
+<Item text="Edge51;:T2861:6:E" id="191"/>
+<Item text="Edge52;:T2861:6:E" id="192"/>
+<Item text="Edge53;:T2861:6:E" id="193"/>
+<Item text="Edge54;:T2861:6:E" id="194"/>
+<Item text="Edge55;:T2861:6:E" id="195"/>
+<Item text="Edge56;:T2861:6:E" id="196"/>
+<Item text="Edge57;:T2861:6:E" id="197"/>
+<Item text="Edge58;:T2861:6:E" id="198"/>
+<Item text="Edge59;:T2861:6:E" id="199"/>
+<Item text="Edge60;:T2861:6:E" id="200"/>
+<Item text="Edge61;:T2861:6:E" id="201"/>
+<Item text="Edge62;:T2861:6:E" id="202"/>
+<Item text="Edge63;:T2861:6:E" id="203"/>
+<Item text="Edge64;:T2861:6:E" id="204"/>
+<Item text="Edge65;:T2861:6:E" id="205"/>
+<Item text="Edge66;:T2861:6:E" id="206"/>
+<Item text="Edge67;:T2861:6:E" id="207"/>
+<Item text="Edge68;:T2861:6:E" id="208"/>
+<Item text="Edge69;:T2861:6:E" id="209"/>
+<Item text="Edge70;:T2861:6:E" id="210"/>
+<Item text="Edge71;:T2861:6:E" id="211"/>
+<Item text="Edge72;:T2861:6:E" id="212"/>
+<Item text="Edge73;:T2861:6:E" id="213"/>
+<Item text="Edge74;:T2861:6:E" id="214"/>
+<Item text="Edge75;:T2861:6:E" id="215"/>
+<Item text="Edge76;:T2861:6:E" id="216"/>
+<Item text="Edge77;:T2861:6:E" id="217"/>
+<Item text="Edge78;:T2861:6:E" id="218"/>
+<Item text="Edge79;:T2861:6:E" id="219"/>
+<Item text="Edge80;:T2861:6:E" id="220"/>
+<Item text="Edge81;:T2861:6:E" id="221"/>
+<Item text="Edge82;:T2861:6:E" id="222"/>
+<Item text="Edge83;:T2861:6:E" id="223"/>
+<Item text="Edge84;:T2861:6:E" id="224"/>
+<Item text="Edge85;:T2861:6:E" id="225"/>
+<Item text="Edge86;:T2861:6:E" id="226"/>
+<Item text="Edge87;:T2861:6:E" id="227"/>
+<Item text="Edge88;:T2861:6:E" id="228"/>
+<Item text="Edge89;:T2861:6:E" id="229"/>
+<Item text="Edge90;:T2861:6:E" id="230"/>
+<Item text="Edge91;:T2861:6:E" id="231"/>
+<Item text="Edge92;:T2861:6:E" id="232"/>
+<Item text="Edge93;:T2861:6:E" id="233"/>
+<Item text="Edge94;:T2861:6:E" id="234"/>
+<Item text="Edge95;:T2861:6:E" id="235"/>
+<Item text="Edge96;:T2861:6:E" id="236"/>
+<Item text="Edge97;:T2861:6:E" id="237"/>
+<Item text="Edge98;:T2861:6:E" id="238"/>
+<Item text="Edge99;:T2861:6:E" id="239"/>
+<Item text="Edge100;:T2861:7:E" id="240"/>
+<Item text="Edge101;:T2861:7:E" id="241"/>
+<Item text="Edge102;:T2861:7:E" id="242"/>
+<Item text="Edge103;:T2861:7:E" id="243"/>
+<Item text="Edge104;:T2861:7:E" id="244"/>
+<Item text="Edge105;:T2861:7:E" id="245"/>
+<Item text="Edge106;:T2861:7:E" id="246"/>
+<Item text="Edge107;:T2861:7:E" id="247"/>
+<Item text="Edge108;:T2861:7:E" id="248"/>
+<Item text="Edge109;:T2861:7:E" id="249"/>
+<Item text="Edge110;:T2861:7:E" id="250"/>
+<Item text="Edge111;:T2861:7:E" id="251"/>
+<Item text="Edge112;:T2861:7:E" id="252"/>
+<Item text="Edge113;:T2861:7:E" id="253"/>
+<Item text="Edge114;:T2861:7:E" id="254"/>
+<Item text="Edge115;:T2861:7:E" id="255"/>
+<Item text="Edge116;:T2861:7:E" id="256"/>
+<Item text="Edge117;:T2861:7:E" id="257"/>
+<Item text="Edge118;:T2861:7:E" id="258"/>
+<Item text="Edge119;:T2861:7:E" id="259"/>
+<Item text="Edge120;:T2861:7:E" id="260"/>
+<Item text="Edge121;:T2861:7:E" id="261"/>
+<Item text="Edge122;:T2861:7:E" id="262"/>
+<Item text="Edge123;:T2861:7:E" id="263"/>
+<Item text="Edge124;:T2861:7:E" id="264"/>
+<Item text="Edge125;:T2861:7:E" id="265"/>
+<Item text="Edge126;:T2861:7:E" id="266"/>
+<Item text="Edge127;:T2861:7:E" id="267"/>
+<Item text="Edge128;:T2861:7:E" id="268"/>
+<Item text="Edge129;:T2861:7:E" id="269"/>
+<Item text="Edge130;:T2861:7:E" id="270"/>
+<Item text="Edge131;:T2861:7:E" id="271"/>
+<Item text="Edge132;:T2861:7:E" id="272"/>
+<Item text="Edge133;:T2861:7:E" id="273"/>
+<Item text="Edge134;:T2861:7:E" id="274"/>
+<Item text="Edge135;:T2861:7:E" id="275"/>
+<Item text="Edge136;:T2861:7:E" id="276"/>
+<Item text="Edge137;:T2861:7:E" id="277"/>
+<Item text="Edge138;:T2861:7:E" id="278"/>
+<Item text="Edge139;:T2861:7:E" id="279"/>
+<Item text="Edge140;:T2861:7:E" id="280"/>
+<Item text="Edge141;:T2861:7:E" id="281"/>
+<Item text="Edge142;:T2861:7:E" id="282"/>
+<Item text="Edge143;:T2861:7:E" id="283"/>
+<Item text="Edge144;:T2861:7:E" id="284"/>
+<Item text="Edge145;:T2861:7:E" id="285"/>
+<Item text="Edge146;:T2861:7:E" id="286"/>
+<Item text="Edge147;:T2861:7:E" id="287"/>
+<Item text="Edge148;:T2861:7:E" id="288"/>
+<Item text="Edge149;:T2861:7:E" id="289"/>
+<Item text="Edge150;:T2861:7:E" id="290"/>
+<Item text="Edge151;:T2861:7:E" id="291"/>
+<Item text="Edge152;:T2861:7:E" id="292"/>
+<Item text="Edge153;:T2861:7:E" id="293"/>
+<Item text="Edge154;:T2861:7:E" id="294"/>
+<Item text="Edge155;:T2861:7:E" id="295"/>
+<Item text="Edge156;:T2861:7:E" id="296"/>
+<Item text="Edge157;:T2861:7:E" id="297"/>
+<Item text="Edge158;:T2861:7:E" id="298"/>
+<Item text="Edge159;:T2861:7:E" id="299"/>
+<Item text="Edge160;:T2861:7:E" id="300"/>
+<Item text="Edge161;:T2861:7:E" id="301"/>
+<Item text="Edge162;:T2861:7:E" id="302"/>
+<Item text="Edge163;:T2861:7:E" id="303"/>
+<Item text="Edge164;:T2861:7:E" id="304"/>
+<Item text="Edge165;:T2861:7:E" id="305"/>
+<Item text="Edge166;:T2861:7:E" id="306"/>
+<Item text="Edge167;:T2861:7:E" id="307"/>
+<Item text="Edge168;:T2861:7:E" id="308"/>
+<Item text="Edge169;:T2861:7:E" id="309"/>
+<Item text="Edge170;:T2861:7:E" id="310"/>
+<Item text="Edge171;:T2861:7:E" id="311"/>
+<Item text="Edge172;:T2861:7:E" id="312"/>
+<Item text="Edge173;:T2861:7:E" id="313"/>
+<Item text="Edge174;:T2861:7:E" id="314"/>
+<Item text="Edge175;:T2861:7:E" id="315"/>
+<Item text="Edge176;:T2861:7:E" id="316"/>
+<Item text="Edge177;:T2861:7:E" id="317"/>
+<Item text="Edge178;:T2861:7:E" id="318"/>
+<Item text="Edge179;:T2861:7:E" id="319"/>
+<Item text="Edge180;:T2861:7:E" id="320"/>
+<Item text="Edge181;:T2861:7:E" id="321"/>
+<Item text="Edge182;:T2861:7:E" id="322"/>
+<Item text="Edge183;:T2861:7:E" id="323"/>
+<Item text="Edge184;:T2861:7:E" id="324"/>
+<Item text="Edge185;:T2861:7:E" id="325"/>
+<Item text="Edge186;:T2861:7:E" id="326"/>
+<Item text="Edge187;:T2861:7:E" id="327"/>
+<Item text="Edge188;:T2861:7:E" id="328"/>
+<Item text="Edge189;:T2861:7:E" id="329"/>
+<Item text="Edge190;:T2861:7:E" id="330"/>
+<Item text="Edge191;:T2861:7:E" id="331"/>
+<Item text="Edge192;:T2861:7:E" id="332"/>
+<Item text="Edge193;:T2861:7:E" id="333"/>
+<Item text="Edge194;:T2861:7:E" id="334"/>
+<Item text="Edge195;:T2861:7:E" id="335"/>
+<Item text="Edge196;:T2861:7:E" id="336"/>
+<Item text="Edge197;:T2861:7:E" id="337"/>
+<Item text="Edge198;:T2861:7:E" id="338"/>
+<Item text="Edge199;:T2861:7:E" id="339"/>
+<Item text="Edge200;:T2861:7:E" id="340"/>
+<Item text="Edge201;:T2861:7:E" id="341"/>
+<Item text="Edge202;:T2861:7:E" id="342"/>
+<Item text="Edge203;:T2861:7:E" id="343"/>
+<Item text="Edge204;:T2861:7:E" id="344"/>
+<Item text="Edge205;:T2861:7:E" id="345"/>
+<Item text="Edge206;:T2861:7:E" id="346"/>
+<Item text="Edge207;:T2861:7:E" id="347"/>
+<Item text="Edge208;:T2861:7:E" id="348"/>
+<Item text="Edge209;:T2861:7:E" id="349"/>
+<Item text="Edge210;:T2861:7:E" id="350"/>
+<Item text="Edge211;:T2861:7:E" id="351"/>
+<Item text="Edge212;:T2861:7:E" id="352"/>
+<Item text="Edge213;:T2861:7:E" id="353"/>
+<Item text="Edge214;:T2861:7:E" id="354"/>
+<Item text="Edge215;:T2861:7:E" id="355"/>
+<Item text="Edge216;:T2861:7:E" id="356"/>
+<Item text="Edge217;:T2861:7:E" id="357"/>
+<Item text="Edge218;:T2861:7:E" id="358"/>
+<Item text="Edge219;:T2861:7:E" id="359"/>
+<Item text="Edge220;:T2861:7:E" id="360"/>
+<Item text="Edge221;:T2861:7:E" id="361"/>
+<Item text="Edge222;:T2861:7:E" id="362"/>
+<Item text="Edge223;:T2861:7:E" id="363"/>
+<Item text="Edge224;:T2861:7:E" id="364"/>
+<Item text="Edge225;:T2861:7:E" id="365"/>
+<Item text="Edge226;:T2861:7:E" id="366"/>
+<Item text="Edge227;:T2861:7:E" id="367"/>
+<Item text="Edge228;:T2861:7:E" id="368"/>
+<Item text="Edge229;:T2861:7:E" id="369"/>
+<Item text="Edge230;:T2861:7:E" id="370"/>
+<Item text="Edge231;:T2861:7:E" id="371"/>
+<Item text="Edge232;:T2861:7:E" id="372"/>
+<Item text="Edge233;:T2861:7:E" id="373"/>
+<Item text="Edge234;:T2861:7:E" id="374"/>
+<Item text="Edge235;:T2861:7:E" id="375"/>
+<Item text="Edge236;:T2861:7:E" id="376"/>
+<Item text="Edge237;:T2861:7:E" id="377"/>
+<Item text="Face1;:T2861:5:F" id="378"/>
+<Item text="Face2;:T2861:5:F" id="379"/>
+<Item text="Face3;:T2861:5:F" id="380"/>
+<Item text="Face4;:T2861:5:F" id="381"/>
+<Item text="Face5;:T2861:5:F" id="382"/>
+<Item text="Face6;:T2861:5:F" id="383"/>
+<Item text="Face7;:T2861:5:F" id="384"/>
+<Item text="Face8;:T2861:5:F" id="385"/>
+<Item text="Face9;:T2861:5:F" id="386"/>
+<Item text="Face10;:T2861:6:F" id="387"/>
+<Item text="Face11;:T2861:6:F" id="388"/>
+<Item text="Face12;:T2861:6:F" id="389"/>
+<Item text="Face13;:T2861:6:F" id="390"/>
+<Item text="Face14;:T2861:6:F" id="391"/>
+<Item text="Face15;:T2861:6:F" id="392"/>
+<Item text="Face16;:T2861:6:F" id="393"/>
+<Item text="Face17;:T2861:6:F" id="394"/>
+<Item text="Face18;:T2861:6:F" id="395"/>
+<Item text="Face19;:T2861:6:F" id="396"/>
+<Item text="Face20;:T2861:6:F" id="397"/>
+<Item text="Face21;:T2861:6:F" id="398"/>
+<Item text="Face22;:T2861:6:F" id="399"/>
+<Item text="Face23;:T2861:6:F" id="400"/>
+<Item text="Face24;:T2861:6:F" id="401"/>
+<Item text="Face25;:T2861:6:F" id="402"/>
+<Item text="Face26;:T2861:6:F" id="403"/>
+<Item text="Face27;:T2861:6:F" id="404"/>
+<Item text="Face28;:T2861:6:F" id="405"/>
+<Item text="Face29;:T2861:6:F" id="406"/>
+<Item text="Face30;:T2861:6:F" id="407"/>
+<Item text="Face31;:T2861:6:F" id="408"/>
+<Item text="Face32;:T2861:6:F" id="409"/>
+<Item text="Face33;:T2861:6:F" id="410"/>
+<Item text="Face34;:T2861:6:F" id="411"/>
+<Item text="Face35;:T2861:6:F" id="412"/>
+<Item text="Face36;:T2861:6:F" id="413"/>
+<Item text="Face37;:T2861:6:F" id="414"/>
+<Item text="Face38;:T2861:6:F" id="415"/>
+<Item text="Face39;:T2861:6:F" id="416"/>
+<Item text="Face40;:T2861:6:F" id="417"/>
+<Item text="Face41;:T2861:6:F" id="418"/>
+<Item text="Face42;:T2861:6:F" id="419"/>
+<Item text="Face43;:T2861:6:F" id="420"/>
+<Item text="Face44;:T2861:6:F" id="421"/>
+<Item text="Face45;:T2861:6:F" id="422"/>
+<Item text="Face46;:T2861:6:F" id="423"/>
+<Item text="Face47;:T2861:6:F" id="424"/>
+<Item text="Face48;:T2861:6:F" id="425"/>
+<Item text="Face49;:T2861:6:F" id="426"/>
+<Item text="Face50;:T2861:6:F" id="427"/>
+<Item text="Face51;:T2861:6:F" id="428"/>
+<Item text="Face52;:T2861:6:F" id="429"/>
+<Item text="Face53;:T2861:6:F" id="430"/>
+<Item text="Face54;:T2861:6:F" id="431"/>
+<Item text="Face55;:T2861:6:F" id="432"/>
+<Item text="Face56;:T2861:6:F" id="433"/>
+<Item text="Face57;:T2861:6:F" id="434"/>
+<Item text="Face58;:T2861:6:F" id="435"/>
+<Item text="Face59;:T2861:6:F" id="436"/>
+<Item text="Face60;:T2861:6:F" id="437"/>
+<Item text="Face61;:T2861:6:F" id="438"/>
+<Item text="Face62;:T2861:6:F" id="439"/>
+<Item text="Face63;:T2861:6:F" id="440"/>
+<Item text="Face64;:T2861:6:F" id="441"/>
+<Item text="Face65;:T2861:6:F" id="442"/>
+<Item text="Face66;:T2861:6:F" id="443"/>
+<Item text="Face67;:T2861:6:F" id="444"/>
+<Item text="Face68;:T2861:6:F" id="445"/>
+<Item text="Face69;:T2861:6:F" id="446"/>
+<Item text="Face70;:T2861:6:F" id="447"/>
+<Item text="Face71;:T2861:6:F" id="448"/>
+<Item text="Face72;:T2861:6:F" id="449"/>
+<Item text="Face73;:T2861:6:F" id="450"/>
+<Item text="Face74;:T2861:6:F" id="451"/>
+<Item text="Face75;:T2861:6:F" id="452"/>
+<Item text="Face76;:T2861:6:F" id="453"/>
+<Item text="Face77;:T2861:6:F" id="454"/>
+<Item text="Face78;:T2861:6:F" id="455"/>
+<Item text="Face79;:T2861:6:F" id="456"/>
+<Item text="Face80;:T2861:6:F" id="457"/>
+<Item text="Face81;:T2861:6:F" id="458"/>
+<Item text="Face82;:T2861:6:F" id="459"/>
+<Item text="Face83;:T2861:6:F" id="460"/>
+<Item text="Face84;:T2861:6:F" id="461"/>
+<Item text="Face85;:T2861:6:F" id="462"/>
+<Item text="Face86;:T2861:6:F" id="463"/>
+<Item text="Face87;:T2861:6:F" id="464"/>
+<Item text="Face88;:T2861:6:F" id="465"/>
+<Item text="Face89;:T2861:6:F" id="466"/>
+<Item text="Face90;:T2861:6:F" id="467"/>
+<Item text="Face91;:T2861:6:F" id="468"/>
+<Item text="Face92;:T2861:6:F" id="469"/>
+<Item text="Face93;:T2861:6:F" id="470"/>
+<Item text="Face94;:T2861:6:F" id="471"/>
+<Item text="Face95;:T2861:6:F" id="472"/>
+<Item text="Face96;:T2861:6:F" id="473"/>
+<Item text="Face97;:T2861:6:F" id="474"/>
+<Item text="Face98;:T2861:6:F" id="475"/>
     </StringHasher>
     <Properties Count="16" TransientCount="3">
         <_Property name="FileName" type="App::PropertyString" status="1"/>
@@ -26,13 +501,13 @@
             <String value=""/>
         </Property>
         <Property name="Label" type="App::PropertyString" status="1">
-            <String value="000082_-_fender_wheel_well_bracket"/>
+            <String value="fender_wheel_well_bracket_______________PID81"/>
         </Property>
         <Property name="LastModifiedBy" type="App::PropertyString">
             <String value=""/>
         </Property>
         <Property name="LastModifiedDate" type="App::PropertyString" status="1">
-            <String value="2018-07-24T11:48:26+02:00"/>
+            <String value="2018-08-08T10:58:41+02:00"/>
         </Property>
         <Property name="License" type="App::PropertyString" status="1">
             <String value="All rights reserved"/>
@@ -40,11 +515,11 @@
         <Property name="LicenseURL" type="App::PropertyString" status="1">
             <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
         </Property>
-        <Property name="Material" type="App::PropertyMap">
+        <Property name="Material" type="App::PropertyMap" status="1">
             <Map count="0">
             </Map>
         </Property>
-        <Property name="Meta" type="App::PropertyMap">
+        <Property name="Meta" type="App::PropertyMap" status="1">
             <Map count="0">
             </Map>
         </Property>
@@ -80,7 +555,7 @@
                     </ExpressionEngine>
                 </Property>
                 <Property name="Label" type="App::PropertyString" status="1">
-                    <String value="82_SHELL"/>
+                    <String value="81_SHELL"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement">
                     <PropertyPlacement Px="0.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000" A="0.000000000000" Ox="0.000000000000" Oy="0.000000000000" Oz="1.000000000000"/>
@@ -137,7 +612,7 @@
                 <Property name="GroupMode" type="App::PropertyEnumeration" group="Base" doc="" attr="0" ro="0" hide="0" status="282">
                 </Property>
                 <Property name="Label" type="App::PropertyString" status="1">
-                    <String value="fender_wheel_well_bracket_______________PID82"/>
+                    <String value="fender_wheel_well_bracket_______________PID81"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
                     <PropertyPlacement Px="0.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000" A="0.000000000000" Ox="0.000000000000" Oy="0.000000000000" Oz="1.000000000000"/>
@@ -7191,206 +7666,6 @@ Sh
 -->
 <Document SchemaVersion="1">
     <ViewProviderData Count="5">
-        <ViewProvider name="Assembly" expanded="1" Extensions="True">
-            <Extensions Count="1">
-                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
-                </Extension>
-            </Extensions>
-            <Properties Count="14">
-                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
-                    <Float value="2.000000000000"/>
-                </Property>
-                <Property name="MaterialList" type="App::PropertyMaterialList" status="65">
-                    <MaterialList file=""/>
-                </Property>
-                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="OverrideColorList" type="App::PropertyColorList" status="1">
-                    <ColorList file=""/>
-                </Property>
-                <Property name="OverrideMaterial" type="App::PropertyBool" status="1">
-                    <Bool value="false"/>
-                </Property>
-                <Property name="OverrideMaterialList" type="App::PropertyBoolList" status="1">
-                    <BoolList value=""/>
-                </Property>
-                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
-                    <Float value="2.000000000000"/>
-                </Property>
-                <Property name="Proxy" type="App::PropertyPythonObject" status="1">
-                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="ViewProviderAssembly"/>
-                </Property>
-                <Property name="Selectable" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
-                    <PropertyMaterial ambientColor="858993408" diffuseColor="1728052992" specularColor="0" emissiveColor="0" shininess="0.200000002980" transparency="0.000000000000"/>
-                </Property>
-                <Property name="ShowInTree" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-                <Property name="Visibility" type="App::PropertyBool" status="9">
-                    <Bool value="true"/>
-                </Property>
-            </Properties>
-        </ViewProvider>
-        <ViewProvider name="Elements" expanded="0" Extensions="True">
-            <Extensions Count="1">
-                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
-                </Extension>
-            </Extensions>
-            <Properties Count="14">
-                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
-                    <Float value="2.000000000000"/>
-                </Property>
-                <Property name="MaterialList" type="App::PropertyMaterialList" status="65">
-                    <MaterialList file=""/>
-                </Property>
-                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="OverrideColorList" type="App::PropertyColorList" status="1">
-                    <ColorList file=""/>
-                </Property>
-                <Property name="OverrideMaterial" type="App::PropertyBool" status="1">
-                    <Bool value="false"/>
-                </Property>
-                <Property name="OverrideMaterialList" type="App::PropertyBoolList" status="1">
-                    <BoolList value=""/>
-                </Property>
-                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
-                    <Float value="2.000000000000"/>
-                </Property>
-                <Property name="Proxy" type="App::PropertyPythonObject" status="1">
-                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="ViewProviderAsmElementGroup"/>
-                </Property>
-                <Property name="Selectable" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
-                    <PropertyMaterial ambientColor="858993408" diffuseColor="1728052992" specularColor="0" emissiveColor="0" shininess="0.200000002980" transparency="0.000000000000"/>
-                </Property>
-                <Property name="ShowInTree" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-                <Property name="Visibility" type="App::PropertyBool" status="9">
-                    <Bool value="false"/>
-                </Property>
-            </Properties>
-        </ViewProvider>
-        <ViewProvider name="Constraints" expanded="0" Extensions="True">
-            <Extensions Count="1">
-                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
-                </Extension>
-            </Extensions>
-            <Properties Count="14">
-                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
-                    <Float value="2.000000000000"/>
-                </Property>
-                <Property name="MaterialList" type="App::PropertyMaterialList" status="65">
-                    <MaterialList file=""/>
-                </Property>
-                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="OverrideColorList" type="App::PropertyColorList" status="1">
-                    <ColorList file=""/>
-                </Property>
-                <Property name="OverrideMaterial" type="App::PropertyBool" status="1">
-                    <Bool value="false"/>
-                </Property>
-                <Property name="OverrideMaterialList" type="App::PropertyBoolList" status="1">
-                    <BoolList value=""/>
-                </Property>
-                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
-                    <Float value="2.000000000000"/>
-                </Property>
-                <Property name="Proxy" type="App::PropertyPythonObject" status="1">
-                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="ViewProviderAsmConstraintGroup"/>
-                </Property>
-                <Property name="Selectable" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
-                    <PropertyMaterial ambientColor="858993408" diffuseColor="1728052992" specularColor="0" emissiveColor="0" shininess="0.200000002980" transparency="0.000000000000"/>
-                </Property>
-                <Property name="ShowInTree" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-                <Property name="Visibility" type="App::PropertyBool" status="9">
-                    <Bool value="false"/>
-                </Property>
-            </Properties>
-        </ViewProvider>
-        <ViewProvider name="Parts" expanded="0" Extensions="True">
-            <Extensions Count="1">
-                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
-                </Extension>
-            </Extensions>
-            <Properties Count="14">
-                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
-                    <Float value="2.000000000000"/>
-                </Property>
-                <Property name="MaterialList" type="App::PropertyMaterialList" status="65">
-                    <MaterialList file=""/>
-                </Property>
-                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="OverrideColorList" type="App::PropertyColorList" status="1">
-                    <ColorList file=""/>
-                </Property>
-                <Property name="OverrideMaterial" type="App::PropertyBool" status="1">
-                    <Bool value="false"/>
-                </Property>
-                <Property name="OverrideMaterialList" type="App::PropertyBoolList" status="1">
-                    <BoolList value=""/>
-                </Property>
-                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
-                    <Float value="2.000000000000"/>
-                </Property>
-                <Property name="Proxy" type="App::PropertyPythonObject" status="1">
-                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="ViewProviderAsmPartGroup"/>
-                </Property>
-                <Property name="Selectable" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
-                    <PropertyMaterial ambientColor="858993408" diffuseColor="1728052992" specularColor="0" emissiveColor="0" shininess="0.200000002980" transparency="0.000000000000"/>
-                </Property>
-                <Property name="ShowInTree" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-                <Property name="Visibility" type="App::PropertyBool" status="9">
-                    <Bool value="false"/>
-                </Property>
-            </Properties>
-        </ViewProvider>
         <ViewProvider name="Shell" expanded="0" Extensions="True">
             <Extensions Count="1">
                 <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
@@ -7479,6 +7754,206 @@ Sh
                     <Integer value="0"/>
                 </Property>
                 <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Assembly" expanded="1" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="14">
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.000000000000"/>
+                </Property>
+                <Property name="MaterialList" type="App::PropertyMaterialList" status="65">
+                    <MaterialList file=""/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OverrideColorList" type="App::PropertyColorList" status="1">
+                    <ColorList file=""/>
+                </Property>
+                <Property name="OverrideMaterial" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="OverrideMaterialList" type="App::PropertyBoolList" status="1">
+                    <BoolList value=""/>
+                </Property>
+                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.000000000000"/>
+                </Property>
+                <Property name="Proxy" type="App::PropertyPythonObject" status="1">
+                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="ViewProviderAssembly"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="1728052992" specularColor="0" emissiveColor="0" shininess="0.200000002980" transparency="0.000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="9">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Constraints" expanded="0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="14">
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.000000000000"/>
+                </Property>
+                <Property name="MaterialList" type="App::PropertyMaterialList" status="65">
+                    <MaterialList file=""/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OverrideColorList" type="App::PropertyColorList" status="1">
+                    <ColorList file=""/>
+                </Property>
+                <Property name="OverrideMaterial" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="OverrideMaterialList" type="App::PropertyBoolList" status="1">
+                    <BoolList value=""/>
+                </Property>
+                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.000000000000"/>
+                </Property>
+                <Property name="Proxy" type="App::PropertyPythonObject" status="1">
+                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="ViewProviderAsmConstraintGroup"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="1728052992" specularColor="0" emissiveColor="0" shininess="0.200000002980" transparency="0.000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="9">
+                    <Bool value="false"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Elements" expanded="0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="14">
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.000000000000"/>
+                </Property>
+                <Property name="MaterialList" type="App::PropertyMaterialList" status="65">
+                    <MaterialList file=""/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OverrideColorList" type="App::PropertyColorList" status="1">
+                    <ColorList file=""/>
+                </Property>
+                <Property name="OverrideMaterial" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="OverrideMaterialList" type="App::PropertyBoolList" status="1">
+                    <BoolList value=""/>
+                </Property>
+                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.000000000000"/>
+                </Property>
+                <Property name="Proxy" type="App::PropertyPythonObject" status="1">
+                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="ViewProviderAsmElementGroup"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="1728052992" specularColor="0" emissiveColor="0" shininess="0.200000002980" transparency="0.000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="9">
+                    <Bool value="false"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Parts" expanded="1" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="14">
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.000000000000"/>
+                </Property>
+                <Property name="MaterialList" type="App::PropertyMaterialList" status="65">
+                    <MaterialList file=""/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OverrideColorList" type="App::PropertyColorList" status="1">
+                    <ColorList file=""/>
+                </Property>
+                <Property name="OverrideMaterial" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="OverrideMaterialList" type="App::PropertyBoolList" status="1">
+                    <BoolList value=""/>
+                </Property>
+                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.000000000000"/>
+                </Property>
+                <Property name="Proxy" type="App::PropertyPythonObject" status="1">
+                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="ViewProviderAsmPartGroup"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="1728052992" specularColor="0" emissiveColor="0" shininess="0.200000002980" transparency="0.000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="9">
                     <Bool value="false"/>
                 </Property>
             </Properties>
