@@ -1,101 +1,10 @@
-26865|26865|A|Document.xml
+21658|21658|A|Document.xml
 <?xml version='1.0' encoding='utf-8'?>
 <!--
  FreeCAD Document, see http://www.freecadweb.org for more information...
 -->
 <Document SchemaVersion="4" ProgramVersion="0.17R5235 (Git shallow)" FileVersion="1" StringHasher="1">
-    <StringHasher count="91" saveall="0" threshold="0">
-<Item text="Vertex11;:T4651:8:V;SHL;:T4651:19:V" id="1"/>
-<Item text="Vertex12;:T4651:8:V;SHL;:T4651:19:V" id="2"/>
-<Item text="Vertex10;:T4651:8:V;SHL;:T4651:19:V" id="3"/>
-<Item text="Vertex2;:T4651:7:V;SHL;:T4651:18:V" id="4"/>
-<Item text="Vertex13;:T4651:8:V;SHL;:T4651:19:V" id="5"/>
-<Item text="Vertex3;:T4651:7:V;SHL;:T4651:18:V" id="6"/>
-<Item text="Vertex1;:T4651:7:V;SHL;:T4651:18:V" id="7"/>
-<Item text="Vertex4;:T4651:7:V;SHL;:T4651:18:V" id="8"/>
-<Item text="Vertex5;:T4651:7:V;SHL;:T4651:18:V" id="9"/>
-<Item text="Vertex6;:T4651:7:V;SHL;:T4651:18:V" id="10"/>
-<Item text="Vertex7;:T4651:7:V;SHL;:T4651:18:V" id="11"/>
-<Item text="Vertex8;:T4651:7:V;SHL;:T4651:18:V" id="12"/>
-<Item text="Vertex9;:T4651:7:V;SHL;:T4651:18:V" id="13"/>
-<Item text="Vertex19;:T4651:8:V;SHL;:T4651:19:V" id="14"/>
-<Item text="Vertex23;:T4651:8:V;SHL;:T4651:19:V" id="15"/>
-<Item text="Vertex21;:T4651:8:V;SHL;:T4651:19:V" id="16"/>
-<Item text="Vertex22;:T4651:8:V;SHL;:T4651:19:V" id="17"/>
-<Item text="Vertex18;:T4651:8:V;SHL;:T4651:19:V" id="18"/>
-<Item text="Vertex20;:T4651:8:V;SHL;:T4651:19:V" id="19"/>
-<Item text="Vertex24;:T4651:8:V;SHL;:T4651:19:V" id="20"/>
-<Item text="Vertex25;:T4651:8:V;SHL;:T4651:19:V" id="21"/>
-<Item text="Vertex26;:T4651:8:V;SHL;:T4651:19:V" id="22"/>
-<Item text="Vertex27;:T4651:8:V;SHL;:T4651:19:V" id="23"/>
-<Item text="Vertex28;:T4651:8:V;SHL;:T4651:19:V" id="24"/>
-<Item text="Vertex29;:T4651:8:V;SHL;:T4651:19:V" id="25"/>
-<Item text="Vertex30;:T4651:8:V;SHL;:T4651:19:V" id="26"/>
-<Item text="Vertex17;:T4651:8:V;SHL;:T4651:19:V" id="27"/>
-<Item text="Vertex16;:T4651:8:V;SHL;:T4651:19:V" id="28"/>
-<Item text="Vertex15;:T4651:8:V;SHL;:T4651:19:V" id="29"/>
-<Item text="Vertex14;:T4651:8:V;SHL;:T4651:19:V" id="30"/>
-<Item text="Vertex1;:T4650:7:V;SHL;:T4650:18:V" id="31"/>
-<Item text="Edge12;:T4651:6:E;SHL;:T4651:17:E" id="32"/>
-<Item text="Edge13;:T4651:6:E;SHL;:T4651:17:E" id="33"/>
-<Item text="Edge10;:T4651:6:E;SHL;:T4651:17:E" id="34"/>
-<Item text="Edge14;:T4651:6:E;SHL;:T4651:17:E" id="35"/>
-<Item text="Edge15;:T4651:6:E;SHL;:T4651:17:E" id="36"/>
-<Item text="Edge11;:T4651:6:E;SHL;:T4651:17:E" id="37"/>
-<Item text="Edge2;:T4651:5:E;SHL;:T4651:16:E" id="38"/>
-<Item text="Edge1;:T4651:5:E;SHL;:T4651:16:E" id="39"/>
-<Item text="Edge3;:T4651:5:E;SHL;:T4651:16:E" id="40"/>
-<Item text="Edge4;:T4651:5:E;SHL;:T4651:16:E" id="41"/>
-<Item text="Edge5;:T4651:5:E;SHL;:T4651:16:E" id="42"/>
-<Item text="Edge6;:T4651:5:E;SHL;:T4651:16:E" id="43"/>
-<Item text="Edge7;:T4651:5:E;SHL;:T4651:16:E" id="44"/>
-<Item text="Edge8;:T4651:5:E;SHL;:T4651:16:E" id="45"/>
-<Item text="Edge9;:T4651:5:E;SHL;:T4651:16:E" id="46"/>
-<Item text="Edge24;:T4651:6:E;SHL;:T4651:17:E" id="47"/>
-<Item text="Edge29;:T4651:6:E;SHL;:T4651:17:E" id="48"/>
-<Item text="Edge37;:T4651:6:E;SHL;:T4651:17:E" id="49"/>
-<Item text="Edge27;:T4651:6:E;SHL;:T4651:17:E" id="50"/>
-<Item text="Edge28;:T4651:6:E;SHL;:T4651:17:E" id="51"/>
-<Item text="Edge23;:T4651:6:E;SHL;:T4651:17:E" id="52"/>
-<Item text="Edge26;:T4651:6:E;SHL;:T4651:17:E" id="53"/>
-<Item text="Edge30;:T4651:6:E;SHL;:T4651:17:E" id="54"/>
-<Item text="Edge31;:T4651:6:E;SHL;:T4651:17:E" id="55"/>
-<Item text="Edge32;:T4651:6:E;SHL;:T4651:17:E" id="56"/>
-<Item text="Edge33;:T4651:6:E;SHL;:T4651:17:E" id="57"/>
-<Item text="Edge34;:T4651:6:E;SHL;:T4651:17:E" id="58"/>
-<Item text="Edge35;:T4651:6:E;SHL;:T4651:17:E" id="59"/>
-<Item text="Edge36;:T4651:6:E;SHL;:T4651:17:E" id="60"/>
-<Item text="Edge38;:T4651:6:E;SHL;:T4651:17:E" id="61"/>
-<Item text="Edge39;:T4651:6:E;SHL;:T4651:17:E" id="62"/>
-<Item text="Edge40;:T4651:6:E;SHL;:T4651:17:E" id="63"/>
-<Item text="Edge41;:T4651:6:E;SHL;:T4651:17:E" id="64"/>
-<Item text="Edge42;:T4651:6:E;SHL;:T4651:17:E" id="65"/>
-<Item text="Edge43;:T4651:6:E;SHL;:T4651:17:E" id="66"/>
-<Item text="Edge25;:T4651:6:E;SHL;:T4651:17:E" id="67"/>
-<Item text="Edge22;:T4651:6:E;SHL;:T4651:17:E" id="68"/>
-<Item text="Edge21;:T4651:6:E;SHL;:T4651:17:E" id="69"/>
-<Item text="Edge20;:T4651:6:E;SHL;:T4651:17:E" id="70"/>
-<Item text="Edge18;:T4651:6:E;SHL;:T4651:17:E" id="71"/>
-<Item text="Edge19;:T4651:6:E;SHL;:T4651:17:E" id="72"/>
-<Item text="Edge16;:T4651:6:E;SHL;:T4651:17:E" id="73"/>
-<Item text="Edge17;:T4651:6:E;SHL;:T4651:17:E" id="74"/>
-<Item text="Edge1;:T4650:5:E;SHL;:T4650:16:E" id="75"/>
-<Item text="Edge2;:T4650:5:E;SHL;:T4650:16:E" id="76"/>
-<Item text="Face3;:T4651:5:F;SHL;:T4651:16:F" id="77"/>
-<Item text="Face2;:T4651:5:F;SHL;:T4651:16:F" id="78"/>
-<Item text="Face1;:T4651:5:F;SHL;:T4651:16:F" id="79"/>
-<Item text="Face11;:T4651:6:F;SHL;:T4651:17:F" id="80"/>
-<Item text="Face8;:T4651:5:F;SHL;:T4651:16:F" id="81"/>
-<Item text="Face9;:T4651:5:F;SHL;:T4651:16:F" id="82"/>
-<Item text="Face10;:T4651:6:F;SHL;:T4651:17:F" id="83"/>
-<Item text="Face12;:T4651:6:F;SHL;:T4651:17:F" id="84"/>
-<Item text="Face13;:T4651:6:F;SHL;:T4651:17:F" id="85"/>
-<Item text="Face14;:T4651:6:F;SHL;:T4651:17:F" id="86"/>
-<Item text="Face7;:T4651:5:F;SHL;:T4651:16:F" id="87"/>
-<Item text="Face6;:T4651:5:F;SHL;:T4651:16:F" id="88"/>
-<Item text="Face5;:T4651:5:F;SHL;:T4651:16:F" id="89"/>
-<Item text="Face4;:T4651:5:F;SHL;:T4651:16:F" id="90"/>
-<Item text="Face1;:T4650:5:F;SHL;:T4650:16:F" id="91"/>
+    <StringHasher count="0" saveall="0" threshold="0">
     </StringHasher>
     <Properties Count="16" TransientCount="3">
         <_Property name="FileName" type="App::PropertyString" status="1"/>
@@ -111,19 +20,19 @@
             <String value=""/>
         </Property>
         <Property name="CreationDate" type="App::PropertyString" status="1">
-            <String value="2018-08-03T16:04:54+02:00"/>
+            <String value="2018-08-08T16:08:40+02:00"/>
         </Property>
         <Property name="Id" type="App::PropertyString">
             <String value=""/>
         </Property>
         <Property name="Label" type="App::PropertyString" status="1">
-            <String value="hood_bracket_2__________________________PID9"/>
+            <String value="hood_bracket_2__________________________PID10"/>
         </Property>
         <Property name="LastModifiedBy" type="App::PropertyString">
             <String value=""/>
         </Property>
         <Property name="LastModifiedDate" type="App::PropertyString" status="1">
-            <String value="2018-08-03T16:06:37+02:00"/>
+            <String value="2018-08-08T16:11:11+02:00"/>
         </Property>
         <Property name="License" type="App::PropertyString" status="1">
             <String value="All rights reserved"/>
@@ -146,18 +55,18 @@
             <String value=""/>
         </Property>
         <Property name="Uid" type="App::PropertyUUID" status="1">
-            <Uuid value="0a620b9e-d581-4ea2-8ab9-7b0a090839e0"/>
+            <Uuid value="4a0580eb-3bf1-41ce-82a5-75155fc778cf"/>
         </Property>
         <Property name="UseHasher" type="App::PropertyBool" status="1">
             <Bool value="true"/>
         </Property>
     </Properties>
     <Objects Count="5">
-        <Object type="Part::Feature" name="Shell002" id="4653" ViewType="PartGui::ViewProviderPart" />
-        <Object type="Part::FeaturePython" name="Assembly" id="4654" ViewType="Gui::ViewProviderLinkPython" />
-        <Object type="App::FeaturePython" name="Constraints" id="4655" ViewType="Gui::ViewProviderLinkPython" />
-        <Object type="App::FeaturePython" name="Elements" id="4656" ViewType="Gui::ViewProviderLinkPython" />
-        <Object type="App::FeaturePython" name="Parts" id="4657" ViewType="Gui::ViewProviderLinkPython" />
+        <Object type="Part::Feature" name="Shell002" id="1030" ViewType="PartGui::ViewProviderPart" />
+        <Object type="Part::FeaturePython" name="Assembly" id="1031" ViewType="Gui::ViewProviderLinkPython" />
+        <Object type="App::FeaturePython" name="Constraints" id="1032" ViewType="Gui::ViewProviderLinkPython" />
+        <Object type="App::FeaturePython" name="Elements" id="1033" ViewType="Gui::ViewProviderLinkPython" />
+        <Object type="App::FeaturePython" name="Parts" id="1034" ViewType="Gui::ViewProviderLinkPython" />
     </Objects>
     <ObjectData Count="5">
         <Object name="Shell002">
@@ -171,7 +80,7 @@
                     </ExpressionEngine>
                 </Property>
                 <Property name="Label" type="App::PropertyString" status="1">
-                    <String value="9_SHELL"/>
+                    <String value="10_SHELL"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement">
                     <PropertyPlacement Px="0.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000" A="0.000000000000" Ox="0.000000000000" Oy="0.000000000000" Oz="1.000000000000"/>
@@ -179,97 +88,97 @@
                 <Property name="Shape" type="Part::PropertyPartShape">
                     <Part file="PartShape.brp" HasherIndex="0" ElementMap="1.8.70200.3.0"/>
                     <ElementMap count="91">
-<Element key="Edge10;:T4651:6:E;SHL;:T4651:17:E" value="Edge3" sid="0"/>
-<Element key="Edge11;:T4651:6:E;SHL;:T4651:17:E" value="Edge6" sid="0"/>
-<Element key="Edge12;:T4651:6:E;SHL;:T4651:17:E" value="Edge1" sid="0"/>
-<Element key="Edge13;:T4651:6:E;SHL;:T4651:17:E" value="Edge2" sid="0"/>
-<Element key="Edge14;:T4651:6:E;SHL;:T4651:17:E" value="Edge4" sid="0"/>
-<Element key="Edge15;:T4651:6:E;SHL;:T4651:17:E" value="Edge5" sid="0"/>
-<Element key="Edge16;:T4651:6:E;SHL;:T4651:17:E" value="Edge42" sid="0"/>
-<Element key="Edge17;:T4651:6:E;SHL;:T4651:17:E" value="Edge43" sid="0"/>
-<Element key="Edge18;:T4651:6:E;SHL;:T4651:17:E" value="Edge40" sid="0"/>
-<Element key="Edge19;:T4651:6:E;SHL;:T4651:17:E" value="Edge41" sid="0"/>
-<Element key="Edge1;:T4650:5:E;SHL;:T4650:16:E" value="Edge44" sid="0"/>
-<Element key="Edge1;:T4651:5:E;SHL;:T4651:16:E" value="Edge8" sid="0"/>
-<Element key="Edge20;:T4651:6:E;SHL;:T4651:17:E" value="Edge39" sid="0"/>
-<Element key="Edge21;:T4651:6:E;SHL;:T4651:17:E" value="Edge38" sid="0"/>
-<Element key="Edge22;:T4651:6:E;SHL;:T4651:17:E" value="Edge37" sid="0"/>
-<Element key="Edge23;:T4651:6:E;SHL;:T4651:17:E" value="Edge21" sid="0"/>
-<Element key="Edge24;:T4651:6:E;SHL;:T4651:17:E" value="Edge16" sid="0"/>
-<Element key="Edge25;:T4651:6:E;SHL;:T4651:17:E" value="Edge36" sid="0"/>
-<Element key="Edge26;:T4651:6:E;SHL;:T4651:17:E" value="Edge22" sid="0"/>
-<Element key="Edge27;:T4651:6:E;SHL;:T4651:17:E" value="Edge19" sid="0"/>
-<Element key="Edge28;:T4651:6:E;SHL;:T4651:17:E" value="Edge20" sid="0"/>
-<Element key="Edge29;:T4651:6:E;SHL;:T4651:17:E" value="Edge17" sid="0"/>
-<Element key="Edge2;:T4650:5:E;SHL;:T4650:16:E" value="Edge45" sid="0"/>
-<Element key="Edge2;:T4651:5:E;SHL;:T4651:16:E" value="Edge7" sid="0"/>
-<Element key="Edge30;:T4651:6:E;SHL;:T4651:17:E" value="Edge23" sid="0"/>
-<Element key="Edge31;:T4651:6:E;SHL;:T4651:17:E" value="Edge24" sid="0"/>
-<Element key="Edge32;:T4651:6:E;SHL;:T4651:17:E" value="Edge25" sid="0"/>
-<Element key="Edge33;:T4651:6:E;SHL;:T4651:17:E" value="Edge26" sid="0"/>
-<Element key="Edge34;:T4651:6:E;SHL;:T4651:17:E" value="Edge27" sid="0"/>
-<Element key="Edge35;:T4651:6:E;SHL;:T4651:17:E" value="Edge28" sid="0"/>
-<Element key="Edge36;:T4651:6:E;SHL;:T4651:17:E" value="Edge29" sid="0"/>
-<Element key="Edge37;:T4651:6:E;SHL;:T4651:17:E" value="Edge18" sid="0"/>
-<Element key="Edge38;:T4651:6:E;SHL;:T4651:17:E" value="Edge30" sid="0"/>
-<Element key="Edge39;:T4651:6:E;SHL;:T4651:17:E" value="Edge31" sid="0"/>
-<Element key="Edge3;:T4651:5:E;SHL;:T4651:16:E" value="Edge9" sid="0"/>
-<Element key="Edge40;:T4651:6:E;SHL;:T4651:17:E" value="Edge32" sid="0"/>
-<Element key="Edge41;:T4651:6:E;SHL;:T4651:17:E" value="Edge33" sid="0"/>
-<Element key="Edge42;:T4651:6:E;SHL;:T4651:17:E" value="Edge34" sid="0"/>
-<Element key="Edge43;:T4651:6:E;SHL;:T4651:17:E" value="Edge35" sid="0"/>
-<Element key="Edge4;:T4651:5:E;SHL;:T4651:16:E" value="Edge10" sid="0"/>
-<Element key="Edge5;:T4651:5:E;SHL;:T4651:16:E" value="Edge11" sid="0"/>
-<Element key="Edge6;:T4651:5:E;SHL;:T4651:16:E" value="Edge12" sid="0"/>
-<Element key="Edge7;:T4651:5:E;SHL;:T4651:16:E" value="Edge13" sid="0"/>
-<Element key="Edge8;:T4651:5:E;SHL;:T4651:16:E" value="Edge14" sid="0"/>
-<Element key="Edge9;:T4651:5:E;SHL;:T4651:16:E" value="Edge15" sid="0"/>
-<Element key="Face10;:T4651:6:F;SHL;:T4651:17:F" value="Face7" sid="0"/>
-<Element key="Face11;:T4651:6:F;SHL;:T4651:17:F" value="Face4" sid="0"/>
-<Element key="Face12;:T4651:6:F;SHL;:T4651:17:F" value="Face8" sid="0"/>
-<Element key="Face13;:T4651:6:F;SHL;:T4651:17:F" value="Face9" sid="0"/>
-<Element key="Face14;:T4651:6:F;SHL;:T4651:17:F" value="Face10" sid="0"/>
-<Element key="Face1;:T4650:5:F;SHL;:T4650:16:F" value="Face15" sid="0"/>
-<Element key="Face1;:T4651:5:F;SHL;:T4651:16:F" value="Face3" sid="0"/>
-<Element key="Face2;:T4651:5:F;SHL;:T4651:16:F" value="Face2" sid="0"/>
-<Element key="Face3;:T4651:5:F;SHL;:T4651:16:F" value="Face1" sid="0"/>
-<Element key="Face4;:T4651:5:F;SHL;:T4651:16:F" value="Face14" sid="0"/>
-<Element key="Face5;:T4651:5:F;SHL;:T4651:16:F" value="Face13" sid="0"/>
-<Element key="Face6;:T4651:5:F;SHL;:T4651:16:F" value="Face12" sid="0"/>
-<Element key="Face7;:T4651:5:F;SHL;:T4651:16:F" value="Face11" sid="0"/>
-<Element key="Face8;:T4651:5:F;SHL;:T4651:16:F" value="Face5" sid="0"/>
-<Element key="Face9;:T4651:5:F;SHL;:T4651:16:F" value="Face6" sid="0"/>
-<Element key="Vertex10;:T4651:8:V;SHL;:T4651:19:V" value="Vertex3" sid="0"/>
-<Element key="Vertex11;:T4651:8:V;SHL;:T4651:19:V" value="Vertex1" sid="0"/>
-<Element key="Vertex12;:T4651:8:V;SHL;:T4651:19:V" value="Vertex2" sid="0"/>
-<Element key="Vertex13;:T4651:8:V;SHL;:T4651:19:V" value="Vertex5" sid="0"/>
-<Element key="Vertex14;:T4651:8:V;SHL;:T4651:19:V" value="Vertex30" sid="0"/>
-<Element key="Vertex15;:T4651:8:V;SHL;:T4651:19:V" value="Vertex29" sid="0"/>
-<Element key="Vertex16;:T4651:8:V;SHL;:T4651:19:V" value="Vertex28" sid="0"/>
-<Element key="Vertex17;:T4651:8:V;SHL;:T4651:19:V" value="Vertex27" sid="0"/>
-<Element key="Vertex18;:T4651:8:V;SHL;:T4651:19:V" value="Vertex18" sid="0"/>
-<Element key="Vertex19;:T4651:8:V;SHL;:T4651:19:V" value="Vertex14" sid="0"/>
-<Element key="Vertex1;:T4650:7:V;SHL;:T4650:18:V" value="Vertex31" sid="0"/>
-<Element key="Vertex1;:T4651:7:V;SHL;:T4651:18:V" value="Vertex7" sid="0"/>
-<Element key="Vertex20;:T4651:8:V;SHL;:T4651:19:V" value="Vertex19" sid="0"/>
-<Element key="Vertex21;:T4651:8:V;SHL;:T4651:19:V" value="Vertex16" sid="0"/>
-<Element key="Vertex22;:T4651:8:V;SHL;:T4651:19:V" value="Vertex17" sid="0"/>
-<Element key="Vertex23;:T4651:8:V;SHL;:T4651:19:V" value="Vertex15" sid="0"/>
-<Element key="Vertex24;:T4651:8:V;SHL;:T4651:19:V" value="Vertex20" sid="0"/>
-<Element key="Vertex25;:T4651:8:V;SHL;:T4651:19:V" value="Vertex21" sid="0"/>
-<Element key="Vertex26;:T4651:8:V;SHL;:T4651:19:V" value="Vertex22" sid="0"/>
-<Element key="Vertex27;:T4651:8:V;SHL;:T4651:19:V" value="Vertex23" sid="0"/>
-<Element key="Vertex28;:T4651:8:V;SHL;:T4651:19:V" value="Vertex24" sid="0"/>
-<Element key="Vertex29;:T4651:8:V;SHL;:T4651:19:V" value="Vertex25" sid="0"/>
-<Element key="Vertex2;:T4651:7:V;SHL;:T4651:18:V" value="Vertex4" sid="0"/>
-<Element key="Vertex30;:T4651:8:V;SHL;:T4651:19:V" value="Vertex26" sid="0"/>
-<Element key="Vertex3;:T4651:7:V;SHL;:T4651:18:V" value="Vertex6" sid="0"/>
-<Element key="Vertex4;:T4651:7:V;SHL;:T4651:18:V" value="Vertex8" sid="0"/>
-<Element key="Vertex5;:T4651:7:V;SHL;:T4651:18:V" value="Vertex9" sid="0"/>
-<Element key="Vertex6;:T4651:7:V;SHL;:T4651:18:V" value="Vertex10" sid="0"/>
-<Element key="Vertex7;:T4651:7:V;SHL;:T4651:18:V" value="Vertex11" sid="0"/>
-<Element key="Vertex8;:T4651:7:V;SHL;:T4651:18:V" value="Vertex12" sid="0"/>
-<Element key="Vertex9;:T4651:7:V;SHL;:T4651:18:V" value="Vertex13" sid="0"/>
+<Element key="Edge10;:T1028:6:E;SHL;:T1028:17:E" value="Edge3" sid="0"/>
+<Element key="Edge11;:T1028:6:E;SHL;:T1028:17:E" value="Edge6" sid="0"/>
+<Element key="Edge12;:T1028:6:E;SHL;:T1028:17:E" value="Edge1" sid="0"/>
+<Element key="Edge13;:T1028:6:E;SHL;:T1028:17:E" value="Edge2" sid="0"/>
+<Element key="Edge14;:T1028:6:E;SHL;:T1028:17:E" value="Edge4" sid="0"/>
+<Element key="Edge15;:T1028:6:E;SHL;:T1028:17:E" value="Edge5" sid="0"/>
+<Element key="Edge16;:T1028:6:E;SHL;:T1028:17:E" value="Edge42" sid="0"/>
+<Element key="Edge17;:T1028:6:E;SHL;:T1028:17:E" value="Edge43" sid="0"/>
+<Element key="Edge18;:T1028:6:E;SHL;:T1028:17:E" value="Edge40" sid="0"/>
+<Element key="Edge19;:T1028:6:E;SHL;:T1028:17:E" value="Edge41" sid="0"/>
+<Element key="Edge1;:T1027:5:E;SHL;:T1027:16:E" value="Edge44" sid="0"/>
+<Element key="Edge1;:T1028:5:E;SHL;:T1028:16:E" value="Edge8" sid="0"/>
+<Element key="Edge20;:T1028:6:E;SHL;:T1028:17:E" value="Edge39" sid="0"/>
+<Element key="Edge21;:T1028:6:E;SHL;:T1028:17:E" value="Edge38" sid="0"/>
+<Element key="Edge22;:T1028:6:E;SHL;:T1028:17:E" value="Edge37" sid="0"/>
+<Element key="Edge23;:T1028:6:E;SHL;:T1028:17:E" value="Edge21" sid="0"/>
+<Element key="Edge24;:T1028:6:E;SHL;:T1028:17:E" value="Edge16" sid="0"/>
+<Element key="Edge25;:T1028:6:E;SHL;:T1028:17:E" value="Edge36" sid="0"/>
+<Element key="Edge26;:T1028:6:E;SHL;:T1028:17:E" value="Edge22" sid="0"/>
+<Element key="Edge27;:T1028:6:E;SHL;:T1028:17:E" value="Edge19" sid="0"/>
+<Element key="Edge28;:T1028:6:E;SHL;:T1028:17:E" value="Edge20" sid="0"/>
+<Element key="Edge29;:T1028:6:E;SHL;:T1028:17:E" value="Edge17" sid="0"/>
+<Element key="Edge2;:T1027:5:E;SHL;:T1027:16:E" value="Edge45" sid="0"/>
+<Element key="Edge2;:T1028:5:E;SHL;:T1028:16:E" value="Edge7" sid="0"/>
+<Element key="Edge30;:T1028:6:E;SHL;:T1028:17:E" value="Edge23" sid="0"/>
+<Element key="Edge31;:T1028:6:E;SHL;:T1028:17:E" value="Edge24" sid="0"/>
+<Element key="Edge32;:T1028:6:E;SHL;:T1028:17:E" value="Edge25" sid="0"/>
+<Element key="Edge33;:T1028:6:E;SHL;:T1028:17:E" value="Edge26" sid="0"/>
+<Element key="Edge34;:T1028:6:E;SHL;:T1028:17:E" value="Edge27" sid="0"/>
+<Element key="Edge35;:T1028:6:E;SHL;:T1028:17:E" value="Edge28" sid="0"/>
+<Element key="Edge36;:T1028:6:E;SHL;:T1028:17:E" value="Edge29" sid="0"/>
+<Element key="Edge37;:T1028:6:E;SHL;:T1028:17:E" value="Edge18" sid="0"/>
+<Element key="Edge38;:T1028:6:E;SHL;:T1028:17:E" value="Edge30" sid="0"/>
+<Element key="Edge39;:T1028:6:E;SHL;:T1028:17:E" value="Edge31" sid="0"/>
+<Element key="Edge3;:T1028:5:E;SHL;:T1028:16:E" value="Edge9" sid="0"/>
+<Element key="Edge40;:T1028:6:E;SHL;:T1028:17:E" value="Edge32" sid="0"/>
+<Element key="Edge41;:T1028:6:E;SHL;:T1028:17:E" value="Edge33" sid="0"/>
+<Element key="Edge42;:T1028:6:E;SHL;:T1028:17:E" value="Edge34" sid="0"/>
+<Element key="Edge43;:T1028:6:E;SHL;:T1028:17:E" value="Edge35" sid="0"/>
+<Element key="Edge4;:T1028:5:E;SHL;:T1028:16:E" value="Edge10" sid="0"/>
+<Element key="Edge5;:T1028:5:E;SHL;:T1028:16:E" value="Edge11" sid="0"/>
+<Element key="Edge6;:T1028:5:E;SHL;:T1028:16:E" value="Edge12" sid="0"/>
+<Element key="Edge7;:T1028:5:E;SHL;:T1028:16:E" value="Edge13" sid="0"/>
+<Element key="Edge8;:T1028:5:E;SHL;:T1028:16:E" value="Edge14" sid="0"/>
+<Element key="Edge9;:T1028:5:E;SHL;:T1028:16:E" value="Edge15" sid="0"/>
+<Element key="Face10;:T1028:6:F;SHL;:T1028:17:F" value="Face7" sid="0"/>
+<Element key="Face11;:T1028:6:F;SHL;:T1028:17:F" value="Face4" sid="0"/>
+<Element key="Face12;:T1028:6:F;SHL;:T1028:17:F" value="Face8" sid="0"/>
+<Element key="Face13;:T1028:6:F;SHL;:T1028:17:F" value="Face9" sid="0"/>
+<Element key="Face14;:T1028:6:F;SHL;:T1028:17:F" value="Face10" sid="0"/>
+<Element key="Face1;:T1027:5:F;SHL;:T1027:16:F" value="Face15" sid="0"/>
+<Element key="Face1;:T1028:5:F;SHL;:T1028:16:F" value="Face3" sid="0"/>
+<Element key="Face2;:T1028:5:F;SHL;:T1028:16:F" value="Face2" sid="0"/>
+<Element key="Face3;:T1028:5:F;SHL;:T1028:16:F" value="Face1" sid="0"/>
+<Element key="Face4;:T1028:5:F;SHL;:T1028:16:F" value="Face14" sid="0"/>
+<Element key="Face5;:T1028:5:F;SHL;:T1028:16:F" value="Face13" sid="0"/>
+<Element key="Face6;:T1028:5:F;SHL;:T1028:16:F" value="Face12" sid="0"/>
+<Element key="Face7;:T1028:5:F;SHL;:T1028:16:F" value="Face11" sid="0"/>
+<Element key="Face8;:T1028:5:F;SHL;:T1028:16:F" value="Face5" sid="0"/>
+<Element key="Face9;:T1028:5:F;SHL;:T1028:16:F" value="Face6" sid="0"/>
+<Element key="Vertex10;:T1028:8:V;SHL;:T1028:19:V" value="Vertex3" sid="0"/>
+<Element key="Vertex11;:T1028:8:V;SHL;:T1028:19:V" value="Vertex1" sid="0"/>
+<Element key="Vertex12;:T1028:8:V;SHL;:T1028:19:V" value="Vertex2" sid="0"/>
+<Element key="Vertex13;:T1028:8:V;SHL;:T1028:19:V" value="Vertex5" sid="0"/>
+<Element key="Vertex14;:T1028:8:V;SHL;:T1028:19:V" value="Vertex30" sid="0"/>
+<Element key="Vertex15;:T1028:8:V;SHL;:T1028:19:V" value="Vertex29" sid="0"/>
+<Element key="Vertex16;:T1028:8:V;SHL;:T1028:19:V" value="Vertex28" sid="0"/>
+<Element key="Vertex17;:T1028:8:V;SHL;:T1028:19:V" value="Vertex27" sid="0"/>
+<Element key="Vertex18;:T1028:8:V;SHL;:T1028:19:V" value="Vertex18" sid="0"/>
+<Element key="Vertex19;:T1028:8:V;SHL;:T1028:19:V" value="Vertex14" sid="0"/>
+<Element key="Vertex1;:T1027:7:V;SHL;:T1027:18:V" value="Vertex31" sid="0"/>
+<Element key="Vertex1;:T1028:7:V;SHL;:T1028:18:V" value="Vertex7" sid="0"/>
+<Element key="Vertex20;:T1028:8:V;SHL;:T1028:19:V" value="Vertex19" sid="0"/>
+<Element key="Vertex21;:T1028:8:V;SHL;:T1028:19:V" value="Vertex16" sid="0"/>
+<Element key="Vertex22;:T1028:8:V;SHL;:T1028:19:V" value="Vertex17" sid="0"/>
+<Element key="Vertex23;:T1028:8:V;SHL;:T1028:19:V" value="Vertex15" sid="0"/>
+<Element key="Vertex24;:T1028:8:V;SHL;:T1028:19:V" value="Vertex20" sid="0"/>
+<Element key="Vertex25;:T1028:8:V;SHL;:T1028:19:V" value="Vertex21" sid="0"/>
+<Element key="Vertex26;:T1028:8:V;SHL;:T1028:19:V" value="Vertex22" sid="0"/>
+<Element key="Vertex27;:T1028:8:V;SHL;:T1028:19:V" value="Vertex23" sid="0"/>
+<Element key="Vertex28;:T1028:8:V;SHL;:T1028:19:V" value="Vertex24" sid="0"/>
+<Element key="Vertex29;:T1028:8:V;SHL;:T1028:19:V" value="Vertex25" sid="0"/>
+<Element key="Vertex2;:T1028:7:V;SHL;:T1028:18:V" value="Vertex4" sid="0"/>
+<Element key="Vertex30;:T1028:8:V;SHL;:T1028:19:V" value="Vertex26" sid="0"/>
+<Element key="Vertex3;:T1028:7:V;SHL;:T1028:18:V" value="Vertex6" sid="0"/>
+<Element key="Vertex4;:T1028:7:V;SHL;:T1028:18:V" value="Vertex8" sid="0"/>
+<Element key="Vertex5;:T1028:7:V;SHL;:T1028:18:V" value="Vertex9" sid="0"/>
+<Element key="Vertex6;:T1028:7:V;SHL;:T1028:18:V" value="Vertex10" sid="0"/>
+<Element key="Vertex7;:T1028:7:V;SHL;:T1028:18:V" value="Vertex11" sid="0"/>
+<Element key="Vertex8;:T1028:7:V;SHL;:T1028:18:V" value="Vertex12" sid="0"/>
+<Element key="Vertex9;:T1028:7:V;SHL;:T1028:18:V" value="Vertex13" sid="0"/>
                     </ElementMap>
                 </Property>
                 <Property name="Visibility" type="App::PropertyBool" status="137">
@@ -320,7 +229,7 @@
                 <Property name="GroupMode" type="App::PropertyEnumeration" group="Base" doc="" attr="0" ro="0" hide="0" status="282">
                 </Property>
                 <Property name="Label" type="App::PropertyString" status="1">
-                    <String value="hood_bracket_2__________________________PID9"/>
+                    <String value="hood_bracket_2__________________________PID10"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
                     <PropertyPlacement Px="0.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000" A="0.000000000000" Ox="0.000000000000" Oy="0.000000000000" Oz="1.000000000000"/>
@@ -1856,7 +1765,7 @@ Sh
 -->
 <Document SchemaVersion="1">
     <ViewProviderData Count="5">
-        <ViewProvider name="Elements" expanded="0" Extensions="True">
+        <ViewProvider name="Constraints" expanded="0" Extensions="True">
             <Extensions Count="1">
                 <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
                 </Extension>
@@ -1890,7 +1799,57 @@ Sh
                     <Float value="2.000000000000"/>
                 </Property>
                 <Property name="Proxy" type="App::PropertyPythonObject" status="1">
-                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="ViewProviderAsmElementGroup"/>
+                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="ViewProviderAsmConstraintGroup"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="1728052992" specularColor="0" emissiveColor="0" shininess="0.200000002980" transparency="0.000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="9">
+                    <Bool value="false"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Parts" expanded="0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="14">
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.000000000000"/>
+                </Property>
+                <Property name="MaterialList" type="App::PropertyMaterialList" status="65">
+                    <MaterialList file=""/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OverrideColorList" type="App::PropertyColorList" status="1">
+                    <ColorList file=""/>
+                </Property>
+                <Property name="OverrideMaterial" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="OverrideMaterialList" type="App::PropertyBoolList" status="1">
+                    <BoolList value=""/>
+                </Property>
+                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.000000000000"/>
+                </Property>
+                <Property name="Proxy" type="App::PropertyPythonObject" status="1">
+                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="ViewProviderAsmPartGroup"/>
                 </Property>
                 <Property name="Selectable" type="App::PropertyBool" status="1">
                     <Bool value="true"/>
@@ -1956,7 +1915,7 @@ Sh
                 </Property>
             </Properties>
         </ViewProvider>
-        <ViewProvider name="Constraints" expanded="0" Extensions="True">
+        <ViewProvider name="Elements" expanded="0" Extensions="True">
             <Extensions Count="1">
                 <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
                 </Extension>
@@ -1990,7 +1949,7 @@ Sh
                     <Float value="2.000000000000"/>
                 </Property>
                 <Property name="Proxy" type="App::PropertyPythonObject" status="1">
-                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="ViewProviderAsmConstraintGroup"/>
+                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="ViewProviderAsmElementGroup"/>
                 </Property>
                 <Property name="Selectable" type="App::PropertyBool" status="1">
                     <Bool value="true"/>
@@ -2098,58 +2057,8 @@ Sh
                 </Property>
             </Properties>
         </ViewProvider>
-        <ViewProvider name="Parts" expanded="1" Extensions="True">
-            <Extensions Count="1">
-                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
-                </Extension>
-            </Extensions>
-            <Properties Count="14">
-                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
-                    <Float value="2.000000000000"/>
-                </Property>
-                <Property name="MaterialList" type="App::PropertyMaterialList" status="65">
-                    <MaterialList file=""/>
-                </Property>
-                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="OverrideColorList" type="App::PropertyColorList" status="1">
-                    <ColorList file=""/>
-                </Property>
-                <Property name="OverrideMaterial" type="App::PropertyBool" status="1">
-                    <Bool value="false"/>
-                </Property>
-                <Property name="OverrideMaterialList" type="App::PropertyBoolList" status="1">
-                    <BoolList value=""/>
-                </Property>
-                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
-                    <Float value="2.000000000000"/>
-                </Property>
-                <Property name="Proxy" type="App::PropertyPythonObject" status="1">
-                    <Python value="bnVsbA==" encoded="yes" module="freecad.asm3.assembly" class="ViewProviderAsmPartGroup"/>
-                </Property>
-                <Property name="Selectable" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
-                    <PropertyMaterial ambientColor="858993408" diffuseColor="1728052992" specularColor="0" emissiveColor="0" shininess="0.200000002980" transparency="0.000000000000"/>
-                </Property>
-                <Property name="ShowInTree" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-                <Property name="Visibility" type="App::PropertyBool" status="9">
-                    <Bool value="false"/>
-                </Property>
-            </Properties>
-        </ViewProvider>
     </ViewProviderData>
-    <Camera settings="  OrthographicCamera {   viewportMapping ADJUST_CAMERA   position -940.87152 477.95538 842.38385   orientation -0.62920779 0.50345683 0.59213912  3.8740168   nearDistance 3.0959611   farDistance 230.94331   aspectRatio 1   focalDistance 115.77687   height 515.33295  } "/>
+    <Camera settings="  OrthographicCamera {   viewportMapping ADJUST_CAMERA   position -839.47791 839.53601 910.77209   orientation -0.89527494 0.38675261 0.22114499  2.5116935   nearDistance 101.95428   farDistance 205.09981   aspectRatio 1   focalDistance 115.77687   height 515.33313  } "/>
 </Document>
 
 12|8|B|DiffuseColor
